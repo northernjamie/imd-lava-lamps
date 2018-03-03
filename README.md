@@ -2,7 +2,7 @@
 
 The repo contains the data and r script to make 'lava lamp plots' by administrative geography, using the Indices of Deprivation data published by the Minisry for Housing, Communities and Local Government.
 
-
+![Lava Lamp Plots](https://github.com/northernjamie/imd-lava-lamps/blob/master/laimd.png)
 ## Getting Started
 
 Feel free to clone this repo into a new project to open in RStudio. 
@@ -31,14 +31,11 @@ The source of the data is:
 * [RStudio](https://www.rstudio.com/) - IDE for R
 * [ggplot2](http://ggplot2.org/) - the plots
 * [OpenDataCommunities](http://opendatacommunitiesorg) - For the England deprivation data
-* [Office for National Statistics] - For the lookups between geo boundaries
+* [Office for National Statistics Geoportal](http://geoportal.statistics.gov.uk/) - For the lookups between geo boundaries
 
 ## Author
 
 * **Jamie Whyte** - [northernjamie](https://twitter.com/northernjamie)
 
 ## Acknowledgments
-
-* [Hadley Wickham]() for the marvellous ggplot2
-* Inspiration
-* etc
+* [Hadley Wickham](https://twitter.com/hadleywickham) for the marvellous ggplot2
