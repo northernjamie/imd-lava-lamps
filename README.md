@@ -1,13 +1,23 @@
 # IMD Lava Lamp Plots
 
-The repo contains the data and r script to make 'lava lamp plots' by administrative geography, using the Indices of Deprivation data published by the Minisry for Housing, Communities and Local Government.
+The repo contains the data and r script to make 'lava lamp plots' by administrative geography, using the Indices of Deprivation data published by the Ministry for Housing, Communities and Local Government.
 
 ![Lava Lamp Plots](https://github.com/northernjamie/imd-lava-lamps/blob/master/laimd.png)
 ## Getting Started
 
 Feel free to clone this repo into a new project to open in RStudio. 
 
-The file Working_Script.R has the code needed to generate the plots. I've annotated this file as best I can, without overdoing it.
+The file [Working_Script.R](https://github.com/northernjamie/imd-lava-lamps/blob/master/Working_Script.R) has the code needed to generate the plots. I've annotated this file as best I can, without overdoing it.
+
+To make this, I:
+
+* Got LSOA deprivation data from OpenDataCommunities
+* Got LA deprivation data from OpenDataCommunities
+* Got a lookup file from Office for National Statistics
+* Matched the data so that I had a single dataframe with lsoa, lsoa deprivation rank, la, la name, la deprivation rank
+* Calculated the vingtiles of each lsoa (1 - 20)
+* Plotted this as a violin plot using ggplot2 in R
+
 
 Supporting data is available in the data folder.
 
