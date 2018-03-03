@@ -35,11 +35,13 @@ lsoa_la_imd_dedup <- unique(lsoa_la_imd_full)
 lsoa_la_imd_vingtile <- lsoa_la_imd_dedup %>%
   mutate(vingtile = ntile(rank, 20))
 
-g <- ggplot(gmla, aes(la_name, vingtile, fill=la_name))
-g <- g + facet_wrap(~la_name, strip.position = 'bottom', scales = 'free_x',ncol = 5)
-g <- g + geom_violin(color="white") + ggtitle("Greater Manchester Local Authority Deprivation Profiles",subtitle="These charts show the distribution of Lower Super Output Areas by deprivation in GM local authorities. \nA fatter bottom indicates proportionally more more-deprived LSOAs. A fatter head indicate more less-deprived LSOAs. \n\n@northernjamie ") +
+lsoa_la_imd_vingtile_noscilly <- lsoa_la_imd_vingtile[which(lsoa_la_imd_vingtile$la != "E06000053"), ]
+
+g <- ggplot(lsoa_la_imd_vingtile_noscilly, aes(la_name, vingtile, fill=la_name))
+g <- g + facet_wrap(~la_name, strip.position = 'bottom', scales = 'free_x',ncol = 15)
+g <- g + geom_violin(color="white") + ggtitle("England Local Authority Deprivation Profiles",subtitle="These charts show the distribution of Lower Super Output Areas by deprivation in GM local authorities. \nA fatter bottom indicates proportionally more more-deprived LSOAs. A fatter head indicate more less-deprived LSOAs. \n\n@northernjamie ") +
   #labs(title="Greater Manchester Local Authority Deprivation Profiles",subtitle="These charts show the distribution of Lower Super Output Areas by deprivation in GM local authorities. /n A fatter bottom indicates more more-deprived LSOAs. A fatter head indicate more less-deprived LSOAs. @northernjamie ") +
-  theme_classic() + theme(plot.subtitle = element_text(color = 'white', size = 8, face='italic'),plot.title = element_text(color = "white",size=18),strip.background = element_rect(fill = 'black'),strip.text = element_text(color='white',size=12),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="none",axis.title = element_text(color="white",size=12),plot.background=element_rect(fill="black"),panel.background = element_rect(fill="black"))
+  theme_classic() + theme(plot.subtitle = element_text(color = 'white', size = 18, face='italic'),plot.title = element_text(color = "white",size=26),strip.background = element_rect(fill = 'black'),strip.text = element_text(color='white',size=12),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="none",axis.title = element_text(color="white",size=12),plot.background=element_rect(fill="black"),panel.background = element_rect(fill="black"))
 g
-ggsave("gmlaimd.png",g)
+ggsave("laimd.png",g,width=24,height=36,units="in")
 gmla <- lsoa_la_imd_vingtile[which(lsoa_la_imd_vingtile$la_name %in% c("Bolton","Bury","Manchester","Oldham","Rochdale","Salford","Stockport","Tameside","Trafford","Wigan")),]
