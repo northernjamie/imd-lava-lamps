@@ -25,6 +25,7 @@ The source of the data is:
 * Do for scotland / wales / Northern ireland
 * Add data for colouring (such as political control)
 * Do a version by parliamentary constituency
+* Make a low-res version of the image to embed in this readme
 
 ## Built With
 
