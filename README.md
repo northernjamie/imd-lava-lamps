@@ -36,6 +36,7 @@ The source of the data is:
 * Add data for colouring (such as political control)
 * Do a version by parliamentary constituency
 * Make a low-res version of the image to embed in this readme
+* Sort the labels so they fit (wrap or truncate gracefully)
 
 ## Built With
 
