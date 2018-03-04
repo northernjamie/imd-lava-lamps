@@ -4,7 +4,7 @@ library(reshape2)
 library(magrittr)
 library(dplyr)
 
-
+### ENGLAND
 ## Get the data
 
 lsoa_imd <- read.csv("~/Projects/Propolis_Stuff/R_Projects/LA_IMD_Violin/data/IMD_LSOA_2015.csv")
@@ -57,3 +57,26 @@ ggsave("laimd.png",g,width=24,height=36,units="in")
 
 # Filter the dataset to show only LAs in Greater Manchester (this can then be used in place of 'lsoa_la_imd_vingtile_noscilly' in the plot above)
 gmla <- lsoa_la_imd_vingtile[which(lsoa_la_imd_vingtile$la_name %in% c("Bolton","Bury","Manchester","Oldham","Rochdale","Salford","Stockport","Tameside","Trafford","Wigan")),]
+
+### Wales
+
+## Get the data
+
+walesimd <- read.csv("~/Projects/Propolis_Stuff/Youth United/YU_Map_Explorer/data/YUF_IMD_Wales_2014_WLSOA.csv")
+waleslsoa_la <- read.csv("~/Projects/Propolis_Stuff/R_Projects/LA_IMD_Violin/data/wales_LSOA_LA_Lookup.csv")
+wlsoa_la_imd <- merge(walesimd,waleslsoa_la,by.x="GSSCode", by.y="LSOA.Code", all.x=TRUE)
+wlsoa_la_imd <- data.frame("lsoa" = wlsoa_la_imd$GSSCode,
+                           "rank" = wlsoa_la_imd$WIMDRank,
+                           "la_name" = wlsoa_la_imd$LA.name..in.English.,
+                           "la_code" = wlsoa_la_imd$LA.Code)
+
+# Add a new column, splitting the IMD rank into vingtiles
+wlsoa_la_imd_vingtile <- wlsoa_la_imd %>%
+  mutate(vingtile = ntile(rank, 20))
+
+# Make the plot
+w <- ggplot(wlsoa_la_imd_vingtile, aes(la_name, vingtile, fill=la_name))
+w <- w + facet_wrap(~la_name, strip.position = 'bottom', scales = 'free_x',ncol = 6)
+w <- w + geom_violin(color="white") + ggtitle("Wales Local Authority Deprivation Profiles",subtitle="These charts show the distribution of Lower Super Output Areas by deprivation in Welsh local authorities. \nA fatter bottom indicates proportionally more more-deprived LSOAs. A fatter head indicate more less-deprived LSOAs. \n\n@northernjamie ") +
+  theme_classic() + theme(plot.subtitle = element_text(color = 'white', size = 10, face='italic'),plot.title = element_text(color = "white",size=26),strip.background = element_rect(fill = 'black'),strip.text = element_text(color='white',size=8),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="none",axis.title = element_text(color="white",size=12),plot.background=element_rect(fill="black"),panel.background = element_rect(fill="black"))
+w
