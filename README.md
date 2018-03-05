@@ -33,10 +33,11 @@ The source of the data is:
 
 * [Wales Lower super output area deprivation and lookup](https://statswales.gov.wales/Catalogue/Community-Safety-and-Social-Inclusion/Welsh-Index-of-Multiple-Deprivation/WIMD-2014)
 
+* [Scotland deprivation and DZ - LA data from statistics.gov.scot](http://statistics.gov.scot/resource?uri=http%3A%2F%2Fstatistics.gov.scot%2Fdata%2Fscottish-index-of-multiple-deprivation-2016)
 ## Still to do
 
 * Change ordering of the plots
-* Do for scotland / Northern ireland
+* Do Northern ireland
 * Add data for colouring (such as political control)
 * Do a version by parliamentary constituency
 * Make a low-res version of the image to embed in this readme

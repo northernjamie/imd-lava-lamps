@@ -80,3 +80,20 @@ w <- w + facet_wrap(~la_name, strip.position = 'bottom', scales = 'free_x',ncol 
 w <- w + geom_violin(color="white") + ggtitle("Wales Local Authority Deprivation Profiles",subtitle="These charts show the distribution of Lower Super Output Areas by deprivation in Welsh local authorities. \nA fatter bottom indicates proportionally more more-deprived LSOAs. A fatter head indicate more less-deprived LSOAs. \n\n@northernjamie ") +
   theme_classic() + theme(plot.subtitle = element_text(color = 'white', size = 10, face='italic'),plot.title = element_text(color = "white",size=26),strip.background = element_rect(fill = 'black'),strip.text = element_text(color='white',size=8),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="none",axis.title = element_text(color="white",size=12),plot.background=element_rect(fill="black"),panel.background = element_rect(fill="black"))
 w
+
+##################
+
+### Scotland
+
+scotland_imd <- read.csv("data/SIMD_DZ_LA.csv")
+
+s_imd_vingtile <- scotland_imd %>%
+  mutate(vingtile = ntile(rank, 20))
+  
+s <- ggplot(s_imd_vingtile, aes(lalabel, vingtile, fill=lalabel))
+s <- s + facet_wrap(~lalabel, strip.position = 'bottom', scales = 'free_x',ncol = 6)
+s <- s + geom_violin(color="white") + ggtitle("Scotland Local Authority Deprivation Profiles",subtitle="These charts show the distribution of Data Zones by deprivation in Scottish local authorities. \nA fatter bottom indicates proportionally more more-deprived DZs. A fatter head indicate more less-deprived DZs. \n\n@northernjamie ") +
+  theme_classic() + theme(plot.subtitle = element_text(color = 'white', size = 10, face='italic'),plot.title = element_text(color = "white",size=26),strip.background = element_rect(fill = 'black'),strip.text = element_text(color='white',size=8),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="none",axis.title = element_text(color="white",size=12),plot.background=element_rect(fill="black"),panel.background = element_rect(fill="black"))
+s
+
+
