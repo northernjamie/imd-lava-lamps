@@ -3,6 +3,7 @@ library(plyr)
 library(reshape2)
 library(magrittr)
 library(dplyr)
+library(geofacet)
 
 ### ENGLAND
 ## Get the data
@@ -57,6 +58,17 @@ ggsave("laimd.png",g,width=24,height=36,units="in")
 
 # Filter the dataset to show only LAs in Greater Manchester (this can then be used in place of 'lsoa_la_imd_vingtile_noscilly' in the plot above)
 gmla <- lsoa_la_imd_vingtile[which(lsoa_la_imd_vingtile$la_name %in% c("Bolton","Bury","Manchester","Oldham","Rochdale","Salford","Stockport","Tameside","Trafford","Wigan")),]
+
+## London geographically
+
+l <- ggplot(lsoa_la_imd_vingtile_noscilly, aes(1, vingtile, fill=la)) +
+  geom_violin(color="white") + 
+  ggtitle("London Local Authority Deprivation Profiles",subtitle="These charts show the distribution of Lower Super Output Areas by deprivation in GM local authorities. \nA fatter bottom indicates proportionally more more-deprived LSOAs. A fatter head indicate more less-deprived LSOAs. \n\n@northernjamie ") +
+  facet_geo(~la, grid=london_boroughs_grid, label="name") +
+  theme_classic() + theme(plot.subtitle = element_text(color = 'white', size = 18, face='italic'),plot.title = element_text(color = "white",size=26),strip.background = element_rect(fill = 'black'),strip.text = element_text(color='white',size=12),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="none",axis.title = element_text(color="white",size=12),plot.background=element_rect(fill="black"),panel.background = element_rect(fill="black"))
+
+
+ggsave("london.png",l,width=18,height=18,units="in")
 
 ### Wales
 
