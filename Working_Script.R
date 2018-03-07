@@ -145,5 +145,7 @@ ni
 ggsave("engimd.png",e,width=24,height=24.15,units="in")
 ggsave("walesimd.png",w,width=24,height=3,units="in")
 ggsave("scotlandimd.png",s,width=24,height=4,units="in")
+
+# FIXME too wide
 ggsave("nirelandimd.png",ni,width=17.6,height=2,units="in")
 
