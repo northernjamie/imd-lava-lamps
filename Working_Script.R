@@ -3,13 +3,16 @@ library(plyr)
 library(reshape2)
 library(magrittr)
 library(dplyr)
+library(geofacet)
 
 ### ENGLAND
 ## Get the data
 
-lsoa_imd <- read.csv("data/IMD_LSOA_2015.csv")
-la_imd <- read.csv("data/IMD_LA_2015.csv")
-LSOA_LA_Lookup <- read.csv("data/OA_LSOA_LA_Lookup.csv")
+
+lsoa_imd <- read.csv("./data/IMD_LSOA_2015.csv")
+la_imd <- read.csv("./data/IMD_LA_2015.csv")
+LSOA_LA_Lookup <- read.csv("./data/OA_LSOA_LA_Lookup.csv")
+
 
 # Filter the big LSOA data set to get rid of unwanted values (decile, score, and various domains of the IMD)
 
@@ -62,12 +65,27 @@ ggsave("laimd.png",g,width=24,height=36,units="in")
 # Filter the dataset to show only LAs in Greater Manchester (this can then be used in place of 'lsoa_la_imd_vingtile_noscilly' in the plot above)
 gmla <- lsoa_la_imd_vingtile[which(lsoa_la_imd_vingtile$la_name %in% c("Bolton","Bury","Manchester","Oldham","Rochdale","Salford","Stockport","Tameside","Trafford","Wigan")),]
 
+## London geographically
+# Not strictly necessary to filter to only areas included in the grid but 
+# it avoids a warning message
+l <- lsoa_la_imd_vingtile_noscilly %>% 
+  filter(la %in% london_boroughs_grid$code_ons) %>% 
+  ggplot(aes(1, vingtile, fill=la)) +
+  geom_violin(color="white") + 
+  ggtitle("London Local Authority Deprivation Profiles",subtitle="These charts show the distribution of Lower Super Output Areas by deprivation in London. \nA fatter bottom indicates proportionally more more-deprived LSOAs. A fatter head indicate more less-deprived LSOAs. \n\n@northernjamie @DaveMawdsley") +
+  facet_geo(~la, grid=london_boroughs_grid, label="name") +
+  theme_classic() + theme(plot.subtitle = element_text(color = 'white', size = 18, face='italic'),plot.title = element_text(color = "white",size=26),strip.background = element_rect(fill = 'black'),strip.text = element_text(color='white',size=12),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="none",axis.title = element_text(color="white",size=12),plot.background=element_rect(fill="black"),panel.background = element_rect(fill="black"))
+
+ggsave("london.png",l,width=18,height=18,units="in")
+
 ### Wales
 
 ## Get the data
 
-walesimd <- read.csv("data/YUF_IMD_Wales_2014_WLSOA.csv")
-waleslsoa_la <- read.csv("data/wales_LSOA_LA_Lookup.csv")
+
+walesimd <- read.csv("./data/YUF_IMD_Wales_2014_WLSOA.csv")
+waleslsoa_la <- read.csv("./data/wales_LSOA_LA_Lookup.csv")
+
 wlsoa_la_imd <- merge(walesimd,waleslsoa_la,by.x="GSSCode", by.y="LSOA.Code", all.x=TRUE)
 wlsoa_la_imd <- data.frame("lsoa" = wlsoa_la_imd$GSSCode,
                            "rank" = wlsoa_la_imd$WIMDRank,
