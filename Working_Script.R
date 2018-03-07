@@ -8,9 +8,11 @@ library(geofacet)
 ### ENGLAND
 ## Get the data
 
+
 lsoa_imd <- read.csv("./data/IMD_LSOA_2015.csv")
 la_imd <- read.csv("./data/IMD_LA_2015.csv")
 LSOA_LA_Lookup <- read.csv("./data/OA_LSOA_LA_Lookup.csv")
+
 
 # Filter the big LSOA data set to get rid of unwanted values (decile, score, and various domains of the IMD)
 
@@ -76,8 +78,10 @@ ggsave("london.png",l,width=18,height=18,units="in")
 
 ## Get the data
 
+
 walesimd <- read.csv("./data/YUF_IMD_Wales_2014_WLSOA.csv")
 waleslsoa_la <- read.csv("./data/wales_LSOA_LA_Lookup.csv")
+
 wlsoa_la_imd <- merge(walesimd,waleslsoa_la,by.x="GSSCode", by.y="LSOA.Code", all.x=TRUE)
 wlsoa_la_imd <- data.frame("lsoa" = wlsoa_la_imd$GSSCode,
                            "rank" = wlsoa_la_imd$WIMDRank,
