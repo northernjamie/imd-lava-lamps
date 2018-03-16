@@ -51,16 +51,48 @@ lsoa_la_imd_vingtile_noscilly <- lsoa_la_imd_vingtile[which(lsoa_la_imd_vingtile
 
 # Number of plots per row
 pperrow <- 16
+  
+# Match the England LA dataframe to Latitude
 
+eng_la_centroids <- read.csv("data/eng_la_centroids.csv")
+eng_la_centroids <- data.frame('la_code' = eng_la_centroids$CODE,
+                               'la_latitude' = eng_la_centroids$Y)
+
+lsoa_la_imd_vingtile_noscilly <- merge(lsoa_la_imd_vingtile_noscilly,eng_la_centroids,by.x = 'la', by.y='la_code', all.x= T)
+
+
+## England sorted by IMD Filled by Political Control
+
+# Match the England LA dataframe to political control
+
+eng_la_control <- read.csv("data/la_pol_control_2017.csv")
+
+lsoa_la_imd_vingtile_noscilly <- merge(lsoa_la_imd_vingtile_noscilly,eng_la_control,by.x = 'la',by.y='la_code',all.x=T)
+lsoa_la_imd_vingtile_noscilly <- subset(lsoa_la_imd_vingtile_noscilly, select=c(1:9))
+# palette for political control
+
+palControl <- c(LAB = '#DC241f',LD = '#FAA61A',CON = '#0087DC',NOC = '#aaaaaa', UKIP = '#70147A', OTHER = 'pink', NPC = '#333333')
+
+# Draw the plot
+e <- ggplot(lsoa_la_imd_vingtile_noscilly, aes(la_name, vingtile, fill = la_control_2017))
+e <- e + facet_wrap(~ la_name_order_IMD, strip.position = 'bottom', scales = 'free_x',ncol = pperrow)
+e <- e + geom_violin(color="white") + ggtitle("England",subtitle="English Index of Multiple Deprivation 2015. Local Authority areas sorted according to the latitude of the area, ie top left is most northern, bottom right most southern. \n@northernjamie \nData: MHCLG @ http://opendatacommunities.org") +
+  theme_classic() + theme(plot.subtitle = element_text(color = 'white', size = 18, face='italic'),plot.title = element_text(color = "white",size=26),strip.background = element_rect(fill = 'black'),strip.text = element_text(color='white',size=8),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="bottom",axis.title = element_text(color="white",size=12),plot.background=element_rect(fill="black"),panel.background = element_rect(fill="black"))
+e <- e + scale_fill_manual(values = palControl)
+e <- e + 
 # Add the factor sorted by LA dep rank
 lsoa_la_imd_vingtile_noscilly$la_name_order_IMD <- reorder(lsoa_la_imd_vingtile_noscilly$la_name,lsoa_la_imd_vingtile_noscilly$rank_of_avg_rank) 
 
+# Add the factor sorted by LA latitude
+lsoa_la_imd_vingtile_noscilly$la_name_order_lat <- reorder(lsoa_la_imd_vingtile_noscilly$la_name,-lsoa_la_imd_vingtile_noscilly$la_latitude) 
+
 # Draw the plot
-e <- ggplot(lsoa_la_imd_vingtile_noscilly, aes(la_name, vingtile, fill = la_name_order_IMD))
+e <- ggplot(lsoa_la_imd_vingtile_noscilly, aes(la_name, vingtile, fill = la_control_2017))
 e <- e + facet_wrap(~ la_name_order_IMD, strip.position = 'bottom', scales = 'free_x',ncol = pperrow)
-e <- e + geom_violin(color="white") + ggtitle("England",subtitle="English Index of Multiple Deprivation 2015. Local Authority areas sorted according to the average ranks of LSOA deprivation, ie top left is most deprived, bottom right least deprived. \n@northernjamie \nData: MHCLG @ http://opendatacommunities.org") +
+e <- e + geom_violin(color="white") + ggtitle("England",subtitle="English Index of Multiple Deprivation 2015. Local Authority areas sorted according to the latitude of the area, ie top left is most northern, bottom right most southern. \n@northernjamie \nData: MHCLG @ http://opendatacommunities.org") +
   theme_classic() + theme(plot.subtitle = element_text(color = 'white', size = 18, face='italic'),plot.title = element_text(color = "white",size=26),strip.background = element_rect(fill = 'black'),strip.text = element_text(color='white',size=8),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="none",axis.title = element_text(color="white",size=12),plot.background=element_rect(fill="black"),panel.background = element_rect(fill="black"))
-e
+
+ggsave("engimdsortIMDfillpolitic.png",e,width=24,height=24.15,units="in")
 # Save the plot to png file, A1 size
 ggsave("laimd.png",g,width=24,height=36,units="in")
 
@@ -148,7 +180,7 @@ ni
 # 36 Inches
 
 # Save the plot to png file, A1 size
-ggsave("engimd.png",e,width=24,height=24.15,units="in")
+ggsave("engimdsortlatitude.png",e,width=24,height=24.15,units="in")
 ggsave("walesimd.png",w,width=24,height=3,units="in")
 ggsave("scotlandimd.png",s,width=24,height=4,units="in")
 ggsave("nirelandimd.png",ni,width=16.8,height=2,units="in")
