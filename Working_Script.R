@@ -52,13 +52,15 @@ lsoa_la_imd_vingtile_noscilly <- lsoa_la_imd_vingtile[which(lsoa_la_imd_vingtile
 # Number of plots per row
 pperrow <- 16
 
+# Add the factor sorted by LA dep rank
+lsoa_la_imd_vingtile_noscilly$la_name_order_IMD <- reorder(lsoa_la_imd_vingtile_noscilly$la_name,lsoa_la_imd_vingtile_noscilly$rank_of_avg_rank) 
 
 # Draw the plot
-e <- ggplot(lsoa_la_imd_vingtile_noscilly, aes(la_name, vingtile, fill=la_name))
-e <- e + facet_wrap(~la_name, strip.position = 'bottom', scales = 'free_x',ncol = pperrow)
-e <- e + geom_violin(color="white") + ggtitle("England",subtitle="English Index of Multiple Deprivation 2015") +
-  theme_classic() + theme(plot.subtitle = element_text(color = 'white', size = 18, face='italic'),plot.title = element_text(color = "white",size=26),strip.background = element_rect(fill = 'black'),strip.text = element_text(color='white',size=12),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="none",axis.title = element_text(color="white",size=12),plot.background=element_rect(fill="black"),panel.background = element_rect(fill="black"))
-
+e <- ggplot(lsoa_la_imd_vingtile_noscilly, aes(la_name, vingtile, fill = la_name_order_IMD))
+e <- e + facet_wrap(~ la_name_order_IMD, strip.position = 'bottom', scales = 'free_x',ncol = pperrow)
+e <- e + geom_violin(color="white") + ggtitle("England",subtitle="English Index of Multiple Deprivation 2015. Local Authority areas sorted according to the average ranks of LSOA deprivation, ie top left is most deprived, bottom right least deprived. \n@northernjamie \nData: MHCLG @ http://opendatacommunities.org") +
+  theme_classic() + theme(plot.subtitle = element_text(color = 'white', size = 18, face='italic'),plot.title = element_text(color = "white",size=26),strip.background = element_rect(fill = 'black'),strip.text = element_text(color='white',size=8),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="none",axis.title = element_text(color="white",size=12),plot.background=element_rect(fill="black"),panel.background = element_rect(fill="black"))
+e
 # Save the plot to png file, A1 size
 ggsave("laimd.png",g,width=24,height=36,units="in")
 
@@ -97,9 +99,13 @@ wlsoa_la_imd_vingtile <- wlsoa_la_imd %>%
   mutate(vingtile = ntile(rank, 20))
 
 # Make the plot
-w <- ggplot(wlsoa_la_imd_vingtile, aes(la_name, vingtile, fill=la_name))
-w <- w + facet_wrap(~la_name, strip.position = 'bottom', scales = 'free_x',ncol = pperrow)
-w <- w + geom_violin(color="white") + ggtitle("Wales",subtitle="Welsh Index of Multiple Deprivation 2014") +
+
+# Reorder the factor levels (local auth names) so that they 
+wlsoa_la_imd_vingtile$la_name2 <- reorder(wlsoa_la_imd_vingtile$la_name,wlsoa_la_imd_vingtile$rank) 
+
+w <- ggplot(wlsoa_la_imd_vingtile, aes(la_name, vingtile))
+w <- w + facet_wrap(~la_name2, strip.position = 'bottom', scales = 'free_x',ncol = pperrow)
+w <- w + geom_violin(color="white",fill="#ff0000") + ggtitle("Wales",subtitle="Welsh Index of Multiple Deprivation 2014") +
   theme_classic() + theme(plot.subtitle = element_text(color = 'white', size = 10, face='italic'),plot.title = element_text(color = "white",size=26),strip.background = element_rect(fill = 'black'),strip.text = element_text(color='white',size=8),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="none",axis.title = element_text(color="white",size=12),plot.background=element_rect(fill="black"),panel.background = element_rect(fill="black"))
 w
 
@@ -112,9 +118,9 @@ scotland_imd <- read.csv("./data/SIMD_DZ_LA.csv")
 s_imd_vingtile <- scotland_imd %>%
   mutate(vingtile = ntile(rank, 20))
   
-s <- ggplot(s_imd_vingtile, aes(lalabel, vingtile, fill=lalabel))
+s <- ggplot(s_imd_vingtile, aes(lalabel, vingtile))
 s <- s + facet_wrap(~lalabel, strip.position = 'bottom', scales = 'free_x',ncol = pperrow)
-s <- s + geom_violin(color="white") + ggtitle("Scotland",subtitle="Scottish Index of Multiple Deprivation 2016") +
+s <- s + geom_violin(color="white",fill="#244eaf") + ggtitle("Scotland",subtitle="Scottish Index of Multiple Deprivation 2016") +
   theme_classic() + theme(plot.subtitle = element_text(color = 'white', size = 10, face='italic'),plot.title = element_text(color = "white",size=26),strip.background = element_rect(fill = 'black'),strip.text = element_text(color='white',size=8),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="none",axis.title = element_text(color="white",size=12),plot.background=element_rect(fill="black"),panel.background = element_rect(fill="black"))
 s
 
@@ -124,9 +130,9 @@ niimd <- read.csv("./data/NI_IMD_LGD_LSOA.csv")
 ni_imd_vingtile <- niimd %>%
   mutate(vingtile = ntile(rank,20))
 
-ni <- ggplot(ni_imd_vingtile, aes(LGD2014NAME, vingtile, fill=LGD2014NAME))
+ni <- ggplot(ni_imd_vingtile, aes(LGD2014NAME, vingtile))
 ni <- ni + facet_wrap(~LGD2014NAME, strip.position = 'bottom', scales = 'free_x',ncol = pperrow)
-ni <- ni + geom_violin(color="white") + ggtitle("Northern Ireland",subtitle="Northern Ireland Multiple Deprivation Measure 2017") +
+ni <- ni + geom_violin(color="white",fill="#40ae49") + ggtitle("Northern Ireland",subtitle="Northern Ireland Multiple Deprivation Measure 2017") +
   theme_classic() + theme(plot.subtitle = element_text(color = 'white', size = 10, face='italic'),plot.title = element_text(color = "white",size=26),strip.background = element_rect(fill = 'black'),strip.text = element_text(color='white',size=6),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="none",axis.title = element_text(color="white",size=12),plot.background=element_rect(fill="black"),panel.background = element_rect(fill="black"))
 ni
 
@@ -145,7 +151,5 @@ ni
 ggsave("engimd.png",e,width=24,height=24.15,units="in")
 ggsave("walesimd.png",w,width=24,height=3,units="in")
 ggsave("scotlandimd.png",s,width=24,height=4,units="in")
-
-# FIXME too wide
-ggsave("nirelandimd.png",ni,width=17.6,height=2,units="in")
+ggsave("nirelandimd.png",ni,width=16.8,height=2,units="in")
 
