@@ -4,6 +4,7 @@ library(reshape2)
 library(magrittr)
 library(dplyr)
 library(geofacet)
+library(tidyr)
 
 ### ENGLAND
 ## Get the data
@@ -52,6 +53,26 @@ lsoa_la_imd_vingtile_noscilly <- lsoa_la_imd_vingtile[which(lsoa_la_imd_vingtile
 # Number of plots per row
 pperrow <- 16
   
+# Prep the LSOA -> Ward -> Parl con lookup
+
+lsoa_ward <- read.csv("data/GEO_LSOA_WARD_LOOKUP.csv")
+ward_pcon <- read.csv("data/GEO_LOOKUP_WD15_PCON15.csv")
+
+lsoa_pcon <- merge(lsoa_ward,ward_pcon,by = 'WD15CD')
+lsoa_pcon_imd <- merge(lsoa_pcon,lsoa_imd_rank_min,by.x='LSOA11CD',by.y='geocode', all.x=T)
+
+lsoa_pcon_imd_vingtile <- lsoa_pcon_imd %>%
+  mutate(vingtile = ntile(rank, 20))
+
+lsoa_pcon_imd_vingtile <- lsoa_pcon_imd_vingtile %>% drop_na()
+
+e <- ggplot(lsoa_pcon_imd_vingtile, aes(PCON15NM, vingtile, fill = PCON15NM))
+e <- e + facet_wrap(~ PCON15NM, strip.position = 'bottom', scales = 'free_x',ncol = pperrow)
+e <- e + geom_violin(color="white") + ggtitle("England",subtitle="English Index of Multiple Deprivation 2015.  Parliamentary Constituencies. \n@northernjamie \nData: MHCLG @ http://opendatacommunities.org") +
+  theme_classic() + theme(plot.subtitle = element_text(color = 'white', size = 18, face='italic'),plot.title = element_text(color = "white",size=26),strip.background = element_rect(fill = 'black'),strip.text = element_text(color='white',size=8),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="none",axis.title = element_text(color="white",size=12),plot.background=element_rect(fill="black"),panel.background = element_rect(fill="black"))
+
+ggsave("engimdsortIMDpcon.png",e,width=24,height=24.15,units="in")
+
 # Match the England LA dataframe to Latitude
 
 eng_la_centroids <- read.csv("data/eng_la_centroids.csv")
@@ -59,6 +80,7 @@ eng_la_centroids <- data.frame('la_code' = eng_la_centroids$CODE,
                                'la_latitude' = eng_la_centroids$Y)
 
 lsoa_la_imd_vingtile_noscilly <- merge(lsoa_la_imd_vingtile_noscilly,eng_la_centroids,by.x = 'la', by.y='la_code', all.x= T)
+
 
 
 ## England sorted by IMD Filled by Political Control
@@ -79,7 +101,7 @@ e <- e + facet_wrap(~ la_name_order_IMD, strip.position = 'bottom', scales = 'fr
 e <- e + geom_violin(color="white") + ggtitle("England",subtitle="English Index of Multiple Deprivation 2015. Local Authority areas sorted according to the latitude of the area, ie top left is most northern, bottom right most southern. \n@northernjamie \nData: MHCLG @ http://opendatacommunities.org") +
   theme_classic() + theme(plot.subtitle = element_text(color = 'white', size = 18, face='italic'),plot.title = element_text(color = "white",size=26),strip.background = element_rect(fill = 'black'),strip.text = element_text(color='white',size=8),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="bottom",axis.title = element_text(color="white",size=12),plot.background=element_rect(fill="black"),panel.background = element_rect(fill="black"))
 e <- e + scale_fill_manual(values = palControl)
-e <- e + 
+
 # Add the factor sorted by LA dep rank
 lsoa_la_imd_vingtile_noscilly$la_name_order_IMD <- reorder(lsoa_la_imd_vingtile_noscilly$la_name,lsoa_la_imd_vingtile_noscilly$rank_of_avg_rank) 
 
