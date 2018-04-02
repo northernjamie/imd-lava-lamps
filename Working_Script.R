@@ -91,6 +91,9 @@ eng_la_control <- read.csv("data/la_pol_control_2017.csv")
 
 lsoa_la_imd_vingtile_noscilly <- merge(lsoa_la_imd_vingtile_noscilly,eng_la_control,by.x = 'la',by.y='la_code',all.x=T)
 lsoa_la_imd_vingtile_noscilly <- subset(lsoa_la_imd_vingtile_noscilly, select=c(1:9))
+# Allerdale missing from LGiU dataset so forcing it in.
+lsoa_la_imd_vingtile_noscilly[lsoa_la_imd_vingtile_noscilly$la_name=='Allerdale',10] <- 'NOC'
+
 # palette for political control
 
 palControl <- c(LAB = '#DC241f',LD = '#FAA61A',CON = '#0087DC',NOC = '#aaaaaa', UKIP = '#70147A', OTHER = 'pink', NPC = '#333333')
@@ -98,10 +101,10 @@ palControl <- c(LAB = '#DC241f',LD = '#FAA61A',CON = '#0087DC',NOC = '#aaaaaa', 
 # Draw the plot England Sorted by IMD coloured by political control
 e <- ggplot(lsoa_la_imd_vingtile_noscilly, aes(la_name, vingtile, fill = la_control_2017))
 e <- e + facet_wrap(~ la_name_order_IMD, strip.position = 'bottom', scales = 'free_x',ncol = pperrow)
-e <- e + geom_violin(color="white") + ggtitle("England",subtitle="English Index of Multiple Deprivation 2015. Local Authority areas sorted according to the deprivation of the area, ie top left is most deprived, bottom right least deprived. \nShapes show the deprivation profile of each area - wider bottom indicates more more-deprived LSOAs, wider top indicates more less-deprived LSOAs. \n@northernjamie \nData: MHCLG @ http://opendatacommunities.org & LGiU @ https://www.lgiu.org.uk/local-government-facts-and-figures/") +
-  theme_classic() + theme(plot.subtitle = element_text(color = 'white', size = 18, face='italic'),plot.title = element_text(color = "white",size=26),strip.background = element_rect(fill = 'black'),strip.text = element_text(color='white',size=8),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="bottom",legend.title=element_blank(),legend.background=element_rect(fill='#000000'),legend.text = element_text(color='white',size=12),axis.title = element_text(color="white",size=12),plot.background=element_rect(fill="black"),panel.background = element_rect(fill="black"))
+e <- e + geom_violin(color = 'white') + ggtitle("England Local Authorities: Deprivation Profile vs Political Control",subtitle="English Index of Multiple Deprivation 2015. Local Authority areas sorted according to the deprivation of the area, ie top left is most deprived, bottom right least deprived. \nShapes show the deprivation profile of each area - wider bottom indicates more more-deprived LSOAs, wider top indicates more less-deprived LSOAs. \n@northernjamie \nData: MHCLG @ http://opendatacommunities.org & LGiU @ https://www.lgiu.org.uk/local-government-facts-and-figures/") +
+  theme_classic() + theme(plot.subtitle = element_text(color = 'white', size = 18, face='italic'),plot.title = element_text(color = "white",size=36),strip.background = element_rect(fill = 'black'),strip.text = element_text(color='white',size=8),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="bottom",legend.title=element_blank(),legend.background=element_rect(fill='#000000'),legend.key.size=unit(1,"cm"),legend.text = element_text(color='white',size=24),axis.title = element_text(color="white",size=12),plot.background=element_rect(fill="black"),panel.background = element_rect(fill="black"))
 e <- e + scale_fill_manual(values = palControl)
-ggsave("engimdsortIMDfillpolitic.png",e,width=24,height=24.15,units="in")
+ggsave("engimdsortIMDfillpolitic.svg",e,width=24,height=24.15,units="in")
 
 # Add the factor sorted by LA dep rank
 lsoa_la_imd_vingtile_noscilly$la_name_order_IMD <- reorder(lsoa_la_imd_vingtile_noscilly$la_name,lsoa_la_imd_vingtile_noscilly$rank_of_avg_rank) 
@@ -175,7 +178,7 @@ s_imd_vingtile <- scotland_imd %>%
   
 s <- ggplot(s_imd_vingtile, aes(lalabel, vingtile))
 s <- s + facet_wrap(~lalabel, strip.position = 'bottom', scales = 'free_x',ncol = pperrow)
-s <- s + geom_violin(color="white",fill="#244eaf") + ggtitle("Scotland",subtitle="Scottish Index of Multiple Deprivation 2016") +
+s <- s + geom_violin(color="white",fill="#244eaf",scale="count") + ggtitle("Scotland",subtitle="Scottish Index of Multiple Deprivation 2016") +
   theme_classic() + theme(plot.subtitle = element_text(color = 'white', size = 10, face='italic'),plot.title = element_text(color = "white",size=26),strip.background = element_rect(fill = 'black'),strip.text = element_text(color='white',size=8),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="none",axis.title = element_text(color="white",size=12),plot.background=element_rect(fill="black"),panel.background = element_rect(fill="black"))
 s
 
