@@ -214,3 +214,23 @@ ggsave("walesimd.png",w,width=24,height=3,units="in")
 ggsave("scotlandimd.png",s,width=24,height=4,units="in")
 ggsave("nirelandimd.png",ni,width=16.8,height=2,units="in")
 
+# ad hoc request
+
+## Colin Birchenall - what does the glasgow city region look like:
+## Glasgow, East Ren, Renfrewshire, North Lan, South Lan, West Dun, East Dun and Inverclyde
+
+## Add a column to a temporary dataframe of scotland, to apply GCR flag to dzs
+
+gcr_df <- s_imd_vingtile
+
+gcr_las <- c("Glasgow City","East Renfrewshire","Renfrewshire","North Lanarkshire","South Lanarkshire","West Dunbartonshire","East Dunbartonshire","Inverclyde")
+dfcol <- c("Glasgow City Region","Glasgow City Region","Glasgow City Region","Glasgow City Region","Glasgow City Region","Glasgow City Region","Glasgow City Region","Glasgow City Region")
+gcr_lu <- data.frame(gcr_las,dfcol)
+
+gcr_df <- merge(s_imd_vingtile,gcr_lu,by.x="lalabel",by.y="gcr_las",all.x=T)
+s_gcr <- ggplot(gcr_df, aes(dfcol, vingtile,fill = dfcol))
+s_gcr <- s_gcr + facet_wrap(~dfcol, strip.position = 'bottom', scales = 'free_x',ncol = pperrow)
+s_gcr <- s_gcr + geom_violin(color="#d9d9d9", scale="count") + ggtitle("Scotland",subtitle="Scottish Index of Multiple Deprivation 2016") +
+  theme_classic() + theme(plot.subtitle = element_text(color = 'black', size = 10, face='italic'),plot.title = element_text(color = "black",size=26),strip.background = element_rect(fill = '#d9d9d9'),strip.text = element_text(color='black',size=8),axis.text.y = element_blank(),axis.ticks.y = element_blank(), axis.title.y = element_blank(),axis.text.x = element_blank(),axis.ticks.x = element_blank(),axis.title.x=element_blank(), legend.position="none",axis.title = element_text(color="black",size=12),plot.background=element_rect(fill="#d9d9d9"),panel.background = element_rect(fill="#d9d9d9"))
+s_gcr
+# End ad hoc request from Colin Birchenall
