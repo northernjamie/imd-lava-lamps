@@ -24,17 +24,28 @@ lu_la_region <- readr::read_csv("data/lookup_la_region_2019.csv")
 
 ### IMD data at LSOA level
 
-imd_data_lsoa <- readr::read_csv("http://opendatacommunities.org/downloads/cube-table?uri=http%3A%2F%2Fopendatacommunities.org%2Fdata%2Fsocietal-wellbeing%2Fimd%2Findices")
+imd_data_lsoa <- readr::read_csv("http://opendatacommunities.org/downloads/cube-table?uri=http%3A%2F%2Fopendatacommunities.org%2Fdata%2Fsocietal-wellbeing%2Fimd2019%2Findices")
 
 ### IMD data at LA level rank of average rank
 
-imd_data_la <- readr::read_csv("http://opendatacommunities.org/downloads/cube-table?uri=http%3A%2F%2Fopendatacommunities.org%2Fdata%2Fsocietal-wellbeing%2Fimd%2Findicesbyla")
+imd_data_la <- readr::read_csv("http://opendatacommunities.org/downloads/cube-table?uri=http%3A%2F%2Fopendatacommunities.org%2Fdata%2Fsocietal-wellbeing%2Fimd2019%2Findicesbyla")
+
+iod_domain <- "g. Barriers to Housing and Services Domain"                 
+iod_domain <- "h. Living Environment Deprivation Domain"                   
+iod_domain <- "f. Crime Domain"                                            
+iod_domain <- "j. Income Deprivation Affecting Older People Index (IDAOPI)"
+iod_domain <- "i. Income Deprivation Affecting Children Index (IDACI)"     
+iod_domain <- "b. Income Deprivation Domain"                               
+iod_domain <- "c. Employment Deprivation Domain"                           
+iod_domain <- "a. Index of Multiple Deprivation (IMD)"                     
+iod_domain <- "e. Health Deprivation and Disability Domain"                
+iod_domain <- "d. Education, Skills and Training Domain"
 
 ## match the LSOA data to the LA data
 imd_data_lsoa_la <- imd_data_lsoa %>%
   filter(Measurement == 'Rank') %>%
   rename(domain = 'Indices of Deprivation') %>%
-  filter(domain == 'a. Index of Multiple Deprivation (IMD)') %>%
+  filter(domain == iod_domain) %>%
   left_join(lu_lsoa_la, by = c('FeatureCode' = 'LSOA11CD')) %>%
   left_join(imd_data_la, by =  c('LAD19CD' = 'FeatureCode')) %>%
   rename(la_domain = 'Indices of Deprivation') %>%
@@ -62,7 +73,15 @@ imd_data_lsoa_la <- imd_data_lsoa %>%
 ### and merge it in for that bit only.
 
 ## set the colors for the parties
-palControl <- c(LAB = '#DC241f',LD = '#FAA61A',CON = '#0087DC',NOC = '#aaaaaa', UKIP = '#70147A', OTHER = 'pink', NPC = '#333333')
+palControl <- c(LAB = '#DC241f',
+                LD = '#FAA61A',
+                CON = '#0087DC',
+                GREEN = '#69b044',
+                NOC = '#aaaaaa',
+                UKIP = '#70147A',
+                OTHER = 'pink',
+                NPC = '#333333',
+                IND = 'pink')
 
 
 ## add the sort factor
@@ -71,7 +90,8 @@ imd_data_lsoa_la$LAD19NM_IMD <- reorder(imd_data_lsoa_la$LAD19NM.x,imd_data_lsoa
 ## Make the lava lamp plot
 eng_imd_pol_lava <- ggplot(imd_data_lsoa_la, aes(LAD19NM_IMD, vigintile, fill = pol_control_2019)) + 
   facet_wrap(~ LAD19NM_IMD, strip.position = 'bottom', scales = 'free_x',ncol = 16) +
-  geom_violin(color = '#f7f1d4') +
+  ggtitle(iod_domain) + 
+  geom_violin(linetype = 0) +
   scale_fill_manual(values = palControl) + 
   theme(legend.position = 'none',
         plot.subtitle = element_text(color = '#b1b1b1', size = 18, face='italic'),
@@ -90,6 +110,15 @@ eng_imd_pol_lava <- ggplot(imd_data_lsoa_la, aes(LAD19NM_IMD, vigintile, fill = 
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank())
 
-ggsave("engimdsortIMDfillpolitic3.svg",eng_imd_pol_lava,width=24,height=24.15,units="in")
+ggsave(paste0("eng2019imdsort",substr(iod_domain,1,1),".png"),eng_imd_pol_lava,width=24,height=24.15,units="in")
+#ggsave("engimdsortIMDfillpolitic2019.svg",eng_imd_pol_lava,width=24,height=24.15,units="in")
 
+test_violin_data <- imd_data_lsoa_la %>%
+  filter(LAD19NM.x == 'Hackney')
 
+test_violin_plot <- ggplot(test_violin_data, aes(LAD19NM_IMD, vigintile, fill = pol_control_2019)) + 
+  facet_wrap(~ LAD19NM_IMD, strip.position = 'bottom', scales = 'free_x',ncol = 16) +
+  geom_violin(color = '#f7f1d4') +
+  scale_fill_manual(values = palControl)
+
+test_violin_plot
