@@ -7,10 +7,10 @@ tidyIMD <- function (year,iod_domain) {
   pol_control <- pol_control %>%
     select('ONS_LA_code','2019')
   
-  lu_lsoa_la <- readr::read_csv("data/lookup_lsoa_la_2019.csv")
-  lu_lsoa_ward <- readr::read_csv("data/lookup_lsoa_ward_2018.csv")
-  lu_ward_pcon <- readr::read_csv("data/lookup_ward_westminster_constituency_2018.csv")
-  lu_la_region <- readr::read_csv("data/lookup_la_region_2019.csv")
+  lu_lsoa_la <- readr::read_csv("geo_lookups/lookup_lsoa_la_2019.csv")
+  lu_lsoa_ward <- readr::read_csv("geo_lookups/lookup_lsoa_ward_2018.csv")
+  lu_ward_pcon <- readr::read_csv("geo_lookups/lookup_ward_westminster_constituency_2018.csv")
+  lu_la_region <- readr::read_csv("geo_lookups/lookup_la_region_2019.csv")
   
   imd_data_la_19 <- readr::read_csv("http://opendatacommunities.org/downloads/cube-table?uri=http%3A%2F%2Fopendatacommunities.org%2Fdata%2Fsocietal-wellbeing%2Fimd2019%2Findicesbyla")
   
