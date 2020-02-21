@@ -1,0 +1,22 @@
+# paste this into the sparql console on statistics.gov.scot (but delete this line first!)
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?dzlabel ?dzcode ?lalabel ?rank ?vigintile ?pconlabel 
+WHERE 
+
+{  
+	?s <http://purl.org/linked-data/cube#dataSet>  <http://statistics.gov.scot/data/scottish-index-of-multiple-deprivation> ;
+  	#<http://purl.org/linked-data/cube#measureType> <http://statistics.gov.scot/def/measure-properties/rank> ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#refPeriod> <http://reference.data.gov.uk/id/year/2020> ;
+    <http://statistics.gov.scot/def/dimension/simdDomain> <http://statistics.gov.scot/def/concept/simd-domain/simd> ;
+    #<http://statistics.gov.scot/def/measure-properties/rank> ?rank ;
+    <http://statistics.gov.scot/def/measure-properties/vigintile> ?vigintile ;
+  	<http://purl.org/linked-data/sdmx/2009/dimension#refArea> ?dz .
+?dz rdfs:label ?dzlabel ;
+ <http://publishmydata.com/def/ontology/foi/code> ?dzcode ;
+ <http://statistics.gov.scot/def/hierarchy/best-fit#scottish-parliamentary-constituency> ?pcon ;   
+ <http://statistics.gov.scot/def/hierarchy/best-fit#council-area> ?la .
+  
+?la rdfs:label ?lalabel .
+?pcon rdfs:label ?pconlabel .
+}

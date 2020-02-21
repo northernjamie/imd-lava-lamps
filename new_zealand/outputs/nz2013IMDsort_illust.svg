@@ -137,7 +137,7 @@
 	.st131{clip-path:url(#SVGID_260_);}
 	.st132{fill:none;}
 	.st133{fill:#232323;}
-	.st134{font-family:'MyriadPro-Regular';}
+	.st134{font-family:'FSLola';}
 	.st135{font-size:8px;}
 	.st136{clip-path:url(#SVGID_262_);fill:#D9D9D9;}
 	.st137{clip-path:url(#SVGID_264_);}
@@ -155,126 +155,133 @@
 	.st149{clip-path:url(#SVGID_288_);}
 	.st150{clip-path:url(#SVGID_290_);fill:#D9D9D9;}
 	.st151{clip-path:url(#SVGID_292_);}
-	.st152{clip-path:url(#SVGID_294_);fill:#D9D9D9;}
-	.st153{clip-path:url(#SVGID_296_);}
-	.st154{clip-path:url(#SVGID_298_);fill:#D9D9D9;}
-	.st155{clip-path:url(#SVGID_300_);}
-	.st156{clip-path:url(#SVGID_302_);fill:#D9D9D9;}
-	.st157{clip-path:url(#SVGID_304_);}
-	.st158{clip-path:url(#SVGID_306_);fill:#D9D9D9;}
-	.st159{clip-path:url(#SVGID_308_);}
-	.st160{clip-path:url(#SVGID_310_);fill:#D9D9D9;}
-	.st161{clip-path:url(#SVGID_312_);}
-	.st162{clip-path:url(#SVGID_314_);fill:#D9D9D9;}
-	.st163{clip-path:url(#SVGID_316_);}
-	.st164{clip-path:url(#SVGID_318_);fill:#D9D9D9;}
-	.st165{clip-path:url(#SVGID_320_);}
-	.st166{clip-path:url(#SVGID_322_);fill:#D9D9D9;}
-	.st167{clip-path:url(#SVGID_324_);}
-	.st168{clip-path:url(#SVGID_326_);fill:#D9D9D9;}
-	.st169{clip-path:url(#SVGID_328_);}
-	.st170{clip-path:url(#SVGID_330_);fill:#D9D9D9;}
-	.st171{clip-path:url(#SVGID_332_);}
-	.st172{clip-path:url(#SVGID_334_);fill:#D9D9D9;}
-	.st173{clip-path:url(#SVGID_336_);}
-	.st174{clip-path:url(#SVGID_338_);fill:#D9D9D9;}
-	.st175{clip-path:url(#SVGID_340_);}
-	.st176{clip-path:url(#SVGID_342_);fill:#D9D9D9;}
-	.st177{clip-path:url(#SVGID_344_);}
-	.st178{clip-path:url(#SVGID_346_);fill:#D9D9D9;}
-	.st179{clip-path:url(#SVGID_348_);}
-	.st180{clip-path:url(#SVGID_350_);fill:#D9D9D9;}
-	.st181{clip-path:url(#SVGID_352_);}
-	.st182{clip-path:url(#SVGID_354_);fill:#D9D9D9;}
-	.st183{clip-path:url(#SVGID_356_);}
-	.st184{clip-path:url(#SVGID_358_);fill:#D9D9D9;}
-	.st185{clip-path:url(#SVGID_360_);}
-	.st186{clip-path:url(#SVGID_362_);fill:#D9D9D9;}
-	.st187{clip-path:url(#SVGID_364_);}
-	.st188{clip-path:url(#SVGID_366_);fill:#D9D9D9;}
-	.st189{clip-path:url(#SVGID_368_);}
-	.st190{clip-path:url(#SVGID_370_);fill:#D9D9D9;}
-	.st191{clip-path:url(#SVGID_372_);}
-	.st192{clip-path:url(#SVGID_374_);fill:#D9D9D9;}
-	.st193{clip-path:url(#SVGID_376_);}
-	.st194{clip-path:url(#SVGID_378_);fill:#D9D9D9;}
-	.st195{clip-path:url(#SVGID_380_);}
-	.st196{clip-path:url(#SVGID_382_);fill:#D9D9D9;}
-	.st197{clip-path:url(#SVGID_384_);}
-	.st198{clip-path:url(#SVGID_386_);fill:#D9D9D9;}
-	.st199{clip-path:url(#SVGID_388_);}
-	.st200{clip-path:url(#SVGID_390_);fill:#D9D9D9;}
-	.st201{clip-path:url(#SVGID_392_);}
-	.st202{clip-path:url(#SVGID_394_);fill:#D9D9D9;}
-	.st203{clip-path:url(#SVGID_396_);}
-	.st204{clip-path:url(#SVGID_398_);fill:#D9D9D9;}
-	.st205{clip-path:url(#SVGID_400_);}
-	.st206{clip-path:url(#SVGID_402_);fill:#D9D9D9;}
-	.st207{clip-path:url(#SVGID_404_);}
-	.st208{clip-path:url(#SVGID_406_);fill:#D9D9D9;}
-	.st209{clip-path:url(#SVGID_408_);}
-	.st210{clip-path:url(#SVGID_410_);fill:#D9D9D9;}
-	.st211{clip-path:url(#SVGID_412_);}
-	.st212{clip-path:url(#SVGID_414_);fill:#D9D9D9;}
-	.st213{clip-path:url(#SVGID_416_);}
-	.st214{clip-path:url(#SVGID_418_);fill:#D9D9D9;}
-	.st215{clip-path:url(#SVGID_420_);}
-	.st216{clip-path:url(#SVGID_422_);fill:#D9D9D9;}
-	.st217{clip-path:url(#SVGID_424_);}
-	.st218{clip-path:url(#SVGID_426_);fill:#D9D9D9;}
-	.st219{clip-path:url(#SVGID_428_);}
-	.st220{clip-path:url(#SVGID_430_);fill:#D9D9D9;}
-	.st221{clip-path:url(#SVGID_432_);}
-	.st222{clip-path:url(#SVGID_434_);fill:#D9D9D9;}
-	.st223{clip-path:url(#SVGID_436_);}
-	.st224{clip-path:url(#SVGID_438_);fill:#D9D9D9;}
-	.st225{clip-path:url(#SVGID_440_);}
-	.st226{clip-path:url(#SVGID_442_);fill:#D9D9D9;}
-	.st227{clip-path:url(#SVGID_444_);}
-	.st228{clip-path:url(#SVGID_446_);fill:#D9D9D9;}
-	.st229{clip-path:url(#SVGID_448_);}
-	.st230{clip-path:url(#SVGID_450_);fill:#D9D9D9;}
-	.st231{clip-path:url(#SVGID_452_);}
-	.st232{clip-path:url(#SVGID_454_);fill:#D9D9D9;}
-	.st233{clip-path:url(#SVGID_456_);}
-	.st234{clip-path:url(#SVGID_458_);fill:#D9D9D9;}
-	.st235{clip-path:url(#SVGID_460_);}
-	.st236{clip-path:url(#SVGID_462_);fill:#D9D9D9;}
-	.st237{clip-path:url(#SVGID_464_);}
-	.st238{clip-path:url(#SVGID_466_);fill:#D9D9D9;}
-	.st239{clip-path:url(#SVGID_468_);}
-	.st240{clip-path:url(#SVGID_470_);fill:#D9D9D9;}
-	.st241{clip-path:url(#SVGID_472_);}
-	.st242{clip-path:url(#SVGID_474_);fill:#D9D9D9;}
-	.st243{clip-path:url(#SVGID_476_);}
-	.st244{clip-path:url(#SVGID_478_);fill:#D9D9D9;}
-	.st245{clip-path:url(#SVGID_480_);}
-	.st246{clip-path:url(#SVGID_482_);fill:#D9D9D9;}
-	.st247{clip-path:url(#SVGID_484_);}
-	.st248{clip-path:url(#SVGID_486_);fill:#D9D9D9;}
-	.st249{clip-path:url(#SVGID_488_);}
-	.st250{clip-path:url(#SVGID_490_);fill:#D9D9D9;}
-	.st251{clip-path:url(#SVGID_492_);}
-	.st252{clip-path:url(#SVGID_494_);fill:#D9D9D9;}
-	.st253{clip-path:url(#SVGID_496_);}
-	.st254{clip-path:url(#SVGID_498_);fill:#D9D9D9;}
-	.st255{clip-path:url(#SVGID_500_);}
-	.st256{clip-path:url(#SVGID_502_);fill:#D9D9D9;}
-	.st257{clip-path:url(#SVGID_504_);}
-	.st258{font-family:'Futura-Medium';}
+	.st152{font-family:'FSLola-Light';}
+	.st153{clip-path:url(#SVGID_294_);fill:#D9D9D9;}
+	.st154{clip-path:url(#SVGID_296_);}
+	.st155{clip-path:url(#SVGID_298_);fill:#D9D9D9;}
+	.st156{clip-path:url(#SVGID_300_);}
+	.st157{clip-path:url(#SVGID_302_);fill:#D9D9D9;}
+	.st158{clip-path:url(#SVGID_304_);}
+	.st159{clip-path:url(#SVGID_306_);fill:#D9D9D9;}
+	.st160{clip-path:url(#SVGID_308_);}
+	.st161{clip-path:url(#SVGID_310_);fill:#D9D9D9;}
+	.st162{clip-path:url(#SVGID_312_);}
+	.st163{clip-path:url(#SVGID_314_);fill:#D9D9D9;}
+	.st164{clip-path:url(#SVGID_316_);}
+	.st165{clip-path:url(#SVGID_318_);fill:#D9D9D9;}
+	.st166{clip-path:url(#SVGID_320_);}
+	.st167{clip-path:url(#SVGID_322_);fill:#D9D9D9;}
+	.st168{clip-path:url(#SVGID_324_);}
+	.st169{clip-path:url(#SVGID_326_);fill:#D9D9D9;}
+	.st170{clip-path:url(#SVGID_328_);}
+	.st171{clip-path:url(#SVGID_330_);fill:#D9D9D9;}
+	.st172{clip-path:url(#SVGID_332_);}
+	.st173{clip-path:url(#SVGID_334_);fill:#D9D9D9;}
+	.st174{clip-path:url(#SVGID_336_);}
+	.st175{clip-path:url(#SVGID_338_);fill:#D9D9D9;}
+	.st176{clip-path:url(#SVGID_340_);}
+	.st177{clip-path:url(#SVGID_342_);fill:#D9D9D9;}
+	.st178{clip-path:url(#SVGID_344_);}
+	.st179{clip-path:url(#SVGID_346_);fill:#D9D9D9;}
+	.st180{clip-path:url(#SVGID_348_);}
+	.st181{clip-path:url(#SVGID_350_);fill:#D9D9D9;}
+	.st182{clip-path:url(#SVGID_352_);}
+	.st183{clip-path:url(#SVGID_354_);fill:#D9D9D9;}
+	.st184{clip-path:url(#SVGID_356_);}
+	.st185{clip-path:url(#SVGID_358_);fill:#D9D9D9;}
+	.st186{clip-path:url(#SVGID_360_);}
+	.st187{clip-path:url(#SVGID_362_);fill:#D9D9D9;}
+	.st188{clip-path:url(#SVGID_364_);}
+	.st189{clip-path:url(#SVGID_366_);fill:#D9D9D9;}
+	.st190{clip-path:url(#SVGID_368_);}
+	.st191{clip-path:url(#SVGID_370_);fill:#D9D9D9;}
+	.st192{clip-path:url(#SVGID_372_);}
+	.st193{clip-path:url(#SVGID_374_);fill:#D9D9D9;}
+	.st194{clip-path:url(#SVGID_376_);}
+	.st195{clip-path:url(#SVGID_378_);fill:#D9D9D9;}
+	.st196{clip-path:url(#SVGID_380_);}
+	.st197{clip-path:url(#SVGID_382_);fill:#D9D9D9;}
+	.st198{clip-path:url(#SVGID_384_);}
+	.st199{clip-path:url(#SVGID_386_);fill:#D9D9D9;}
+	.st200{clip-path:url(#SVGID_388_);}
+	.st201{clip-path:url(#SVGID_390_);fill:#D9D9D9;}
+	.st202{clip-path:url(#SVGID_392_);}
+	.st203{clip-path:url(#SVGID_394_);fill:#D9D9D9;}
+	.st204{clip-path:url(#SVGID_396_);}
+	.st205{clip-path:url(#SVGID_398_);fill:#D9D9D9;}
+	.st206{clip-path:url(#SVGID_400_);}
+	.st207{clip-path:url(#SVGID_402_);fill:#D9D9D9;}
+	.st208{clip-path:url(#SVGID_404_);}
+	.st209{clip-path:url(#SVGID_406_);fill:#D9D9D9;}
+	.st210{clip-path:url(#SVGID_408_);}
+	.st211{clip-path:url(#SVGID_410_);fill:#D9D9D9;}
+	.st212{clip-path:url(#SVGID_412_);}
+	.st213{clip-path:url(#SVGID_414_);fill:#D9D9D9;}
+	.st214{clip-path:url(#SVGID_416_);}
+	.st215{clip-path:url(#SVGID_418_);fill:#D9D9D9;}
+	.st216{clip-path:url(#SVGID_420_);}
+	.st217{clip-path:url(#SVGID_422_);fill:#D9D9D9;}
+	.st218{clip-path:url(#SVGID_424_);}
+	.st219{clip-path:url(#SVGID_426_);fill:#D9D9D9;}
+	.st220{clip-path:url(#SVGID_428_);}
+	.st221{clip-path:url(#SVGID_430_);fill:#D9D9D9;}
+	.st222{clip-path:url(#SVGID_432_);}
+	.st223{clip-path:url(#SVGID_434_);fill:#D9D9D9;}
+	.st224{clip-path:url(#SVGID_436_);}
+	.st225{clip-path:url(#SVGID_438_);fill:#D9D9D9;}
+	.st226{clip-path:url(#SVGID_440_);}
+	.st227{clip-path:url(#SVGID_442_);fill:#D9D9D9;}
+	.st228{clip-path:url(#SVGID_444_);}
+	.st229{clip-path:url(#SVGID_446_);fill:#D9D9D9;}
+	.st230{clip-path:url(#SVGID_448_);}
+	.st231{clip-path:url(#SVGID_450_);fill:#D9D9D9;}
+	.st232{clip-path:url(#SVGID_452_);}
+	.st233{clip-path:url(#SVGID_454_);fill:#D9D9D9;}
+	.st234{clip-path:url(#SVGID_456_);}
+	.st235{clip-path:url(#SVGID_458_);fill:#D9D9D9;}
+	.st236{clip-path:url(#SVGID_460_);}
+	.st237{clip-path:url(#SVGID_462_);fill:#D9D9D9;}
+	.st238{clip-path:url(#SVGID_464_);}
+	.st239{clip-path:url(#SVGID_466_);fill:#D9D9D9;}
+	.st240{clip-path:url(#SVGID_468_);}
+	.st241{clip-path:url(#SVGID_470_);fill:#D9D9D9;}
+	.st242{clip-path:url(#SVGID_472_);}
+	.st243{clip-path:url(#SVGID_474_);fill:#D9D9D9;}
+	.st244{clip-path:url(#SVGID_476_);}
+	.st245{clip-path:url(#SVGID_478_);fill:#D9D9D9;}
+	.st246{clip-path:url(#SVGID_480_);}
+	.st247{clip-path:url(#SVGID_482_);fill:#D9D9D9;}
+	.st248{clip-path:url(#SVGID_484_);}
+	.st249{clip-path:url(#SVGID_486_);fill:#D9D9D9;}
+	.st250{clip-path:url(#SVGID_488_);}
+	.st251{clip-path:url(#SVGID_490_);fill:#D9D9D9;}
+	.st252{clip-path:url(#SVGID_492_);}
+	.st253{clip-path:url(#SVGID_494_);fill:#D9D9D9;}
+	.st254{clip-path:url(#SVGID_496_);}
+	.st255{clip-path:url(#SVGID_498_);fill:#D9D9D9;}
+	.st256{clip-path:url(#SVGID_500_);}
+	.st257{clip-path:url(#SVGID_502_);fill:#D9D9D9;}
+	.st258{clip-path:url(#SVGID_504_);}
 	.st259{clip-path:url(#SVGID_506_);fill:#D9D9D9;}
 	.st260{clip-path:url(#SVGID_508_);}
 	.st261{clip-path:url(#SVGID_510_);fill:#D9D9D9;}
 	.st262{clip-path:url(#SVGID_512_);}
-	.st263{font-size:30.0314px;}
-	.st264{font-size:16.6841px;}
-	.st265{fill:#4A7EA6;}
-	.st266{fill:none;stroke:#FF6D2D;stroke-width:10.0907;stroke-miterlimit:10;}
-	.st267{font-family:'Rockwell-Regular';}
-	.st268{font-size:7.8559px;}
+	.st263{font-family:'Futura-Medium';}
+	.st264{font-size:30.0314px;}
+	.st265{font-size:16.6841px;}
+	.st266{fill:#4A7EA6;}
+	.st267{fill:none;stroke:#FF6D2D;stroke-width:10.0907;stroke-miterlimit:10;}
+	.st268{font-size:9px;}
 	.st269{fill:none;stroke:#B6BAC8;stroke-width:0.5;stroke-miterlimit:10;}
 	.st270{fill:none;stroke:#B6BAC8;stroke-width:0.5;stroke-miterlimit:10;stroke-dasharray:2.9889,2.9889;}
-	.st271{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st271{fill:none;stroke:#000000;stroke-width:0.4566;stroke-miterlimit:10;}
+	.st272{fill:#00529F;}
+	.st273{fill:#D82A20;}
+	.st274{fill:#FDE401;}
+	.st275{clip-path:url(#SVGID_514_);}
+	.st276{font-size:12px;}
+	.st277{clip-path:url(#SVGID_516_);}
+	.st278{clip-path:url(#SVGID_518_);}
 </style>
 <rect x="52.4" y="170.1" class="st0" width="737" height="850.4"/>
 <rect y="0" class="st1" width="841.9" height="1190.6"/>
@@ -7745,7 +7752,7 @@
 	</clipPath>
 	<g class="st131">
 		<rect x="90.4" y="999.7" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 90.3603 1006.4413)" class="st133 st134 st135">Tamaki</text>
+		<text transform="matrix(1 0 0 1 90.3603 1006.2772)" class="st133 st134 st135">Tamaki</text>
 	</g>
 </g>
 <g>
@@ -7766,7 +7773,7 @@
 	</clipPath>
 	<g class="st137">
 		<rect x="161.9" y="999.7" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 161.8896 1006.4413)" class="st133 st134 st135">Wellington Central</text>
+		<text transform="matrix(1 0 0 1 161.8896 1006.2772)" class="st133 st134 st135">Wellington Central</text>
 	</g>
 </g>
 <g>
@@ -7787,7 +7794,7 @@
 	</clipPath>
 	<g class="st139">
 		<rect x="278.1" y="999.6" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 278.1099 1006.262)" class="st133 st134 st135">Ilam</text>
+		<text transform="matrix(1 0 0 1 278.1099 1006.0979)" class="st133 st134 st135">Ilam</text>
 	</g>
 </g>
 <g>
@@ -7808,7 +7815,7 @@
 	</clipPath>
 	<g class="st141">
 		<rect x="364.3" y="999.7" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 364.3207 1006.4413)" class="st133 st134 st135">Epsom</text>
+		<text transform="matrix(1 0 0 1 364.3207 1006.2772)" class="st133 st134 st135">Epsom</text>
 	</g>
 </g>
 <g>
@@ -7829,7 +7836,7 @@
 	</clipPath>
 	<g class="st143">
 		<rect x="455.9" y="999.6" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 455.8599 1006.262)" class="st133 st134 st135">Ohariu</text>
+		<text transform="matrix(1 0 0 1 455.8599 1006.0979)" class="st133 st134 st135">Ohariu</text>
 	</g>
 </g>
 <g>
@@ -7850,7 +7857,7 @@
 	</clipPath>
 	<g class="st145">
 		<rect x="537.4" y="999.6" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 537.3998 1006.262)" class="st133 st134 st135">North Shore</text>
+		<text transform="matrix(1 0 0 1 537.3998 1006.0979)" class="st133 st134 st135">North Shore</text>
 	</g>
 </g>
 <g>
@@ -7871,7 +7878,7 @@
 	</clipPath>
 	<g class="st147">
 		<rect x="620.5" y="999.7" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 620.4897 1006.4413)" class="st133 st134 st135">East Coast Bays</text>
+		<text transform="matrix(1 0 0 1 620.4897 1006.2772)" class="st133 st134 st135">East Coast Bays</text>
 	</g>
 </g>
 <g>
@@ -7892,7 +7899,7 @@
 	</clipPath>
 	<g class="st149">
 		<rect x="728.3" y="999.7" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 728.2592 1006.4413)" class="st133 st134 st135">Selwyn</text>
+		<text transform="matrix(1 0 0 1 728.2592 1006.2772)" class="st133 st134 st135">Selwyn</text>
 	</g>
 </g>
 <g>
@@ -7913,7 +7920,7 @@
 	</clipPath>
 	<g class="st151">
 		<rect x="87.7" y="898.2" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 87.6799 904.8619)" class="st133 st134 st135">Kaikoura</text>
+		<text transform="matrix(1 0 0 1 87.6799 904.6979)" class="st133 st152 st135">Kaikoura</text>
 	</g>
 </g>
 <g>
@@ -7923,7 +7930,7 @@
 	<clipPath id="SVGID_294_">
 		<use xlink:href="#SVGID_293_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="151.8" y="893.8" class="st152" width="85.6" height="17"/>
+	<rect x="151.8" y="893.8" class="st153" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -7932,9 +7939,9 @@
 	<clipPath id="SVGID_296_">
 		<use xlink:href="#SVGID_295_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st153">
+	<g class="st154">
 		<rect x="175.2" y="898.2" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 175.2299 904.8619)" class="st133 st134 st135">Helensville</text>
+		<text transform="matrix(1 0 0 1 175.2299 904.6979)" class="st133 st152 st135">Helensville</text>
 	</g>
 </g>
 <g>
@@ -7944,7 +7951,7 @@
 	<clipPath id="SVGID_298_">
 		<use xlink:href="#SVGID_297_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="242.9" y="893.8" class="st154" width="85.6" height="17"/>
+	<rect x="242.9" y="893.8" class="st155" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -7953,9 +7960,9 @@
 	<clipPath id="SVGID_300_">
 		<use xlink:href="#SVGID_299_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st155">
+	<g class="st156">
 		<rect x="273.2" y="898.3" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 273.2114 905.0419)" class="st133 st134 st135">Botany</text>
+		<text transform="matrix(1 0 0 1 273.2114 904.8778)" class="st133 st152 st135">Botany</text>
 	</g>
 </g>
 <g>
@@ -7965,7 +7972,7 @@
 	<clipPath id="SVGID_302_">
 		<use xlink:href="#SVGID_301_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="333.9" y="893.8" class="st156" width="85.6" height="17"/>
+	<rect x="333.9" y="893.8" class="st157" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -7974,9 +7981,9 @@
 	<clipPath id="SVGID_304_">
 		<use xlink:href="#SVGID_303_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st157">
+	<g class="st158">
 		<rect x="360.8" y="898.2" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 360.7599 904.8619)" class="st133 st134 st135">Port Hills</text>
+		<text transform="matrix(1 0 0 1 360.7599 904.6979)" class="st133 st152 st135">Port Hills</text>
 	</g>
 </g>
 <g>
@@ -7986,7 +7993,7 @@
 	<clipPath id="SVGID_306_">
 		<use xlink:href="#SVGID_305_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="425" y="893.8" class="st158" width="85.6" height="17"/>
+	<rect x="425" y="893.8" class="st159" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -7995,9 +8002,9 @@
 	<clipPath id="SVGID_308_">
 		<use xlink:href="#SVGID_307_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st159">
+	<g class="st160">
 		<rect x="448.5" y="898.3" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 448.52 905.0419)" class="st133 st134 st135">Pakuranga</text>
+		<text transform="matrix(1 0 0 1 448.52 904.8778)" class="st133 st152 st135">Pakuranga</text>
 	</g>
 </g>
 <g>
@@ -8007,7 +8014,7 @@
 	<clipPath id="SVGID_310_">
 		<use xlink:href="#SVGID_309_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="516.1" y="893.8" class="st160" width="85.6" height="17"/>
+	<rect x="516.1" y="893.8" class="st161" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8016,9 +8023,9 @@
 	<clipPath id="SVGID_312_">
 		<use xlink:href="#SVGID_311_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st161">
+	<g class="st162">
 		<rect x="537.8" y="898.3" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 537.85 905.0419)" class="st133 st134 st135">Waimakariri</text>
+		<text transform="matrix(1 0 0 1 537.85 904.8778)" class="st133 st152 st135">Waimakariri</text>
 	</g>
 </g>
 <g>
@@ -8028,7 +8035,7 @@
 	<clipPath id="SVGID_314_">
 		<use xlink:href="#SVGID_313_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="607.2" y="893.8" class="st162" width="85.6" height="17"/>
+	<rect x="607.2" y="893.8" class="st163" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8037,9 +8044,9 @@
 	<clipPath id="SVGID_316_">
 		<use xlink:href="#SVGID_315_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st163">
+	<g class="st164">
 		<rect x="619.1" y="898.2" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 619.1499 904.8619)" class="st133 st134 st135">Clutha-Southland</text>
+		<text transform="matrix(1 0 0 1 619.1499 904.6979)" class="st133 st152 st135">Clutha-Southland</text>
 	</g>
 </g>
 <g>
@@ -8049,7 +8056,7 @@
 	<clipPath id="SVGID_318_">
 		<use xlink:href="#SVGID_317_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="698.3" y="893.8" class="st164" width="85.6" height="17"/>
+	<rect x="698.3" y="893.8" class="st165" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8058,9 +8065,9 @@
 	<clipPath id="SVGID_320_">
 		<use xlink:href="#SVGID_319_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st165">
+	<g class="st166">
 		<rect x="728" y="898.3" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 728.0493 905.0419)" class="st133 st134 st135">Waitaki</text>
+		<text transform="matrix(1 0 0 1 728.0493 904.8778)" class="st133 st152 st135">Waitaki</text>
 	</g>
 </g>
 <g>
@@ -8070,7 +8077,7 @@
 	<clipPath id="SVGID_322_">
 		<use xlink:href="#SVGID_321_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="60.7" y="792.4" class="st166" width="85.6" height="17"/>
+	<rect x="60.7" y="792.4" class="st167" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8079,9 +8086,9 @@
 	<clipPath id="SVGID_324_">
 		<use xlink:href="#SVGID_323_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st167">
+	<g class="st168">
 		<rect x="91" y="796.8" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 91.0199 803.4719)" class="st133 st134 st135">Nelson</text>
+		<text transform="matrix(1 0 0 1 91.0199 803.3079)" class="st133 st134 st135">Nelson</text>
 	</g>
 </g>
 <g>
@@ -8091,7 +8098,7 @@
 	<clipPath id="SVGID_326_">
 		<use xlink:href="#SVGID_325_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="151.8" y="792.4" class="st168" width="85.6" height="17"/>
+	<rect x="151.8" y="792.4" class="st169" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8100,9 +8107,9 @@
 	<clipPath id="SVGID_328_">
 		<use xlink:href="#SVGID_327_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st169">
+	<g class="st170">
 		<rect x="164.1" y="796.8" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 164.1099 803.4719)" class="st133 st134 st135">Auckland Central</text>
+		<text transform="matrix(1 0 0 1 164.1099 803.3079)" class="st133 st134 st135">Auckland Central</text>
 	</g>
 </g>
 <g>
@@ -8112,7 +8119,7 @@
 	<clipPath id="SVGID_330_">
 		<use xlink:href="#SVGID_329_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="242.9" y="792.4" class="st170" width="85.6" height="17"/>
+	<rect x="242.9" y="792.4" class="st171" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8121,9 +8128,9 @@
 	<clipPath id="SVGID_332_">
 		<use xlink:href="#SVGID_331_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st171">
+	<g class="st172">
 		<rect x="249.2" y="797" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 249.2094 803.6512)" class="st133 st134 st135">West Coast-Tasman</text>
+		<text transform="matrix(1 0 0 1 249.2094 803.4872)" class="st133 st134 st135">West Coast-Tasman</text>
 	</g>
 </g>
 <g>
@@ -8133,7 +8140,7 @@
 	<clipPath id="SVGID_334_">
 		<use xlink:href="#SVGID_333_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="333.9" y="792.4" class="st172" width="85.6" height="17"/>
+	<rect x="333.9" y="792.4" class="st173" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8142,9 +8149,9 @@
 	<clipPath id="SVGID_336_">
 		<use xlink:href="#SVGID_335_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st173">
+	<g class="st174">
 		<rect x="363" y="796.8" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 362.9799 803.4719)" class="st133 st134 st135">Rodney</text>
+		<text transform="matrix(1 0 0 1 362.9799 803.3079)" class="st133 st134 st135">Rodney</text>
 	</g>
 </g>
 <g>
@@ -8154,7 +8161,7 @@
 	<clipPath id="SVGID_338_">
 		<use xlink:href="#SVGID_337_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="425" y="792.4" class="st174" width="85.6" height="17"/>
+	<rect x="425" y="792.4" class="st175" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8163,9 +8170,9 @@
 	<clipPath id="SVGID_340_">
 		<use xlink:href="#SVGID_339_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st175">
+	<g class="st176">
 		<rect x="450.5" y="796.8" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 450.5199 803.4719)" class="st133 st134 st135">Northcote</text>
+		<text transform="matrix(1 0 0 1 450.5199 803.3079)" class="st133 st134 st135">Northcote</text>
 	</g>
 </g>
 <g>
@@ -8175,7 +8182,7 @@
 	<clipPath id="SVGID_342_">
 		<use xlink:href="#SVGID_341_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="516.1" y="792.4" class="st176" width="85.6" height="17"/>
+	<rect x="516.1" y="792.4" class="st177" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8184,9 +8191,9 @@
 	<clipPath id="SVGID_344_">
 		<use xlink:href="#SVGID_343_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st177">
+	<g class="st178">
 		<rect x="533.2" y="797" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 533.1694 803.6512)" class="st133 st134 st135">Dunedin North</text>
+		<text transform="matrix(1 0 0 1 533.1694 803.4872)" class="st133 st134 st135">Dunedin North</text>
 	</g>
 </g>
 <g>
@@ -8196,7 +8203,7 @@
 	<clipPath id="SVGID_346_">
 		<use xlink:href="#SVGID_345_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="607.2" y="792.4" class="st178" width="85.6" height="17"/>
+	<rect x="607.2" y="792.4" class="st179" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8205,9 +8212,9 @@
 	<clipPath id="SVGID_348_">
 		<use xlink:href="#SVGID_347_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st179">
+	<g class="st180">
 		<rect x="638.3" y="796.8" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 638.2699 803.4719)" class="st133 st134 st135">Hunua</text>
+		<text transform="matrix(1 0 0 1 638.2699 803.3079)" class="st133 st134 st135">Hunua</text>
 	</g>
 </g>
 <g>
@@ -8217,7 +8224,7 @@
 	<clipPath id="SVGID_350_">
 		<use xlink:href="#SVGID_349_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="698.3" y="792.4" class="st180" width="85.6" height="17"/>
+	<rect x="698.3" y="792.4" class="st181" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8226,9 +8233,9 @@
 	<clipPath id="SVGID_352_">
 		<use xlink:href="#SVGID_351_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st181">
+	<g class="st182">
 		<rect x="724" y="797" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 724.0405 803.6512)" class="st133 st134 st135">Rangitata</text>
+		<text transform="matrix(1 0 0 1 724.0405 803.4872)" class="st133 st134 st135">Rangitata</text>
 	</g>
 </g>
 <g>
@@ -8238,7 +8245,7 @@
 	<clipPath id="SVGID_354_">
 		<use xlink:href="#SVGID_353_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="60.7" y="691.1" class="st182" width="85.6" height="17"/>
+	<rect x="60.7" y="691.1" class="st183" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8247,9 +8254,9 @@
 	<clipPath id="SVGID_356_">
 		<use xlink:href="#SVGID_355_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st183">
+	<g class="st184">
 		<rect x="85.9" y="695.6" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 85.8998 702.2616)" class="st133 st134 st135">Rangitikei</text>
+		<text transform="matrix(1 0 0 1 85.8998 702.0975)" class="st133 st152 st135">Rangitikei</text>
 	</g>
 </g>
 <g>
@@ -8259,7 +8266,7 @@
 	<clipPath id="SVGID_358_">
 		<use xlink:href="#SVGID_357_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="151.8" y="691.1" class="st184" width="85.6" height="17"/>
+	<rect x="151.8" y="691.1" class="st185" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8268,9 +8275,9 @@
 	<clipPath id="SVGID_360_">
 		<use xlink:href="#SVGID_359_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st185">
+	<g class="st186">
 		<rect x="175.2" y="695.6" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 175.2299 702.2616)" class="st133 st134 st135">Invercargill</text>
+		<text transform="matrix(1 0 0 1 175.2299 702.0975)" class="st133 st152 st135">Invercargill</text>
 	</g>
 </g>
 <g>
@@ -8280,7 +8287,7 @@
 	<clipPath id="SVGID_362_">
 		<use xlink:href="#SVGID_361_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="242.9" y="691.1" class="st186" width="85.6" height="17"/>
+	<rect x="242.9" y="691.1" class="st187" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8289,9 +8296,9 @@
 	<clipPath id="SVGID_364_">
 		<use xlink:href="#SVGID_363_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st187">
+	<g class="st188">
 		<rect x="245.6" y="695.6" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 245.6498 702.2616)" class="st133 st134 st135">Taranaki-King Country</text>
+		<text transform="matrix(1 0 0 1 245.6498 702.0975)" class="st133 st152 st135">Taranaki-King Country</text>
 	</g>
 </g>
 <g>
@@ -8301,7 +8308,7 @@
 	<clipPath id="SVGID_366_">
 		<use xlink:href="#SVGID_365_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="333.9" y="691.1" class="st188" width="85.6" height="17"/>
+	<rect x="333.9" y="691.1" class="st189" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8310,9 +8317,9 @@
 	<clipPath id="SVGID_368_">
 		<use xlink:href="#SVGID_367_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st189">
+	<g class="st190">
 		<rect x="357.9" y="695.4" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 357.8599 702.0819)" class="st133 st134 st135">Hutt South</text>
+		<text transform="matrix(1 0 0 1 357.8599 701.9178)" class="st133 st152 st135">Hutt South</text>
 	</g>
 </g>
 <g>
@@ -8322,7 +8329,7 @@
 	<clipPath id="SVGID_370_">
 		<use xlink:href="#SVGID_369_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="425" y="691.1" class="st190" width="85.6" height="17"/>
+	<rect x="425" y="691.1" class="st191" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8331,9 +8338,9 @@
 	<clipPath id="SVGID_372_">
 		<use xlink:href="#SVGID_371_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st191">
+	<g class="st192">
 		<rect x="442.1" y="695.4" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 442.0794 702.0819)" class="st133 st134 st135">New Plymouth</text>
+		<text transform="matrix(1 0 0 1 442.0794 701.9178)" class="st133 st152 st135">New Plymouth</text>
 	</g>
 </g>
 <g>
@@ -8343,7 +8350,7 @@
 	<clipPath id="SVGID_374_">
 		<use xlink:href="#SVGID_373_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="516.1" y="691.1" class="st192" width="85.6" height="17"/>
+	<rect x="516.1" y="691.1" class="st193" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8352,9 +8359,9 @@
 	<clipPath id="SVGID_376_">
 		<use xlink:href="#SVGID_375_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st193">
+	<g class="st194">
 		<rect x="543" y="695.6" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 542.9604 702.2616)" class="st133 st134 st135">Mt Albert</text>
+		<text transform="matrix(1 0 0 1 542.9604 702.0975)" class="st133 st152 st135">Mt Albert</text>
 	</g>
 </g>
 <g>
@@ -8364,7 +8371,7 @@
 	<clipPath id="SVGID_378_">
 		<use xlink:href="#SVGID_377_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="607.2" y="691.1" class="st194" width="85.6" height="17"/>
+	<rect x="607.2" y="691.1" class="st195" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8373,9 +8380,9 @@
 	<clipPath id="SVGID_380_">
 		<use xlink:href="#SVGID_379_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st195">
+	<g class="st196">
 		<rect x="623.6" y="695.6" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 623.6 702.2616)" class="st133 st134 st135">Dunedin South</text>
+		<text transform="matrix(1 0 0 1 623.6 702.0975)" class="st133 st152 st135">Dunedin South</text>
 	</g>
 </g>
 <g>
@@ -8385,7 +8392,7 @@
 	<clipPath id="SVGID_382_">
 		<use xlink:href="#SVGID_381_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="698.3" y="691.1" class="st196" width="85.6" height="17"/>
+	<rect x="698.3" y="691.1" class="st197" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8394,9 +8401,9 @@
 	<clipPath id="SVGID_384_">
 		<use xlink:href="#SVGID_383_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st197">
+	<g class="st198">
 		<rect x="725.1" y="695.4" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 725.1499 702.0819)" class="st133 st134 st135">Rongotai</text>
+		<text transform="matrix(1 0 0 1 725.1499 701.9178)" class="st133 st152 st135">Rongotai</text>
 	</g>
 </g>
 <g>
@@ -8406,7 +8413,7 @@
 	<clipPath id="SVGID_386_">
 		<use xlink:href="#SVGID_385_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="60.7" y="589.7" class="st198" width="85.6" height="17"/>
+	<rect x="60.7" y="589.7" class="st199" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8415,9 +8422,9 @@
 	<clipPath id="SVGID_388_">
 		<use xlink:href="#SVGID_387_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st199">
+	<g class="st200">
 		<rect x="78.6" y="594.2" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 78.5698 600.871)" class="st133 st134 st135">Hamilton East</text>
+		<text transform="matrix(1 0 0 1 78.5698 600.7069)" class="st133 st134 st135">Hamilton East</text>
 	</g>
 </g>
 <g>
@@ -8427,7 +8434,7 @@
 	<clipPath id="SVGID_390_">
 		<use xlink:href="#SVGID_389_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="151.8" y="589.7" class="st200" width="85.6" height="17"/>
+	<rect x="151.8" y="589.7" class="st201" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8436,9 +8443,9 @@
 	<clipPath id="SVGID_392_">
 		<use xlink:href="#SVGID_391_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st201">
+	<g class="st202">
 		<rect x="183.2" y="594.2" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 183.2299 600.871)" class="st133 st134 st135">Taupo</text>
+		<text transform="matrix(1 0 0 1 183.2299 600.7069)" class="st133 st134 st135">Taupo</text>
 	</g>
 </g>
 <g>
@@ -8448,7 +8455,7 @@
 	<clipPath id="SVGID_394_">
 		<use xlink:href="#SVGID_393_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="242.9" y="589.7" class="st202" width="85.6" height="17"/>
+	<rect x="242.9" y="589.7" class="st203" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8457,9 +8464,9 @@
 	<clipPath id="SVGID_396_">
 		<use xlink:href="#SVGID_395_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st203">
+	<g class="st204">
 		<rect x="262.1" y="594.2" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 262.1 600.871)" class="st133 st134 st135">Bay of Plenty</text>
+		<text transform="matrix(1 0 0 1 262.1 600.7069)" class="st133 st134 st135">Bay of Plenty</text>
 	</g>
 </g>
 <g>
@@ -8469,7 +8476,7 @@
 	<clipPath id="SVGID_398_">
 		<use xlink:href="#SVGID_397_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="333.9" y="589.7" class="st204" width="85.6" height="17"/>
+	<rect x="333.9" y="589.7" class="st205" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8478,9 +8485,9 @@
 	<clipPath id="SVGID_400_">
 		<use xlink:href="#SVGID_399_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st205">
+	<g class="st206">
 		<rect x="340.3" y="594" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 340.3099 600.692)" class="st133 st134 st135">Christchurch Central</text>
+		<text transform="matrix(1 0 0 1 340.3099 600.5279)" class="st133 st134 st135">Christchurch Central</text>
 	</g>
 </g>
 <g>
@@ -8490,7 +8497,7 @@
 	<clipPath id="SVGID_402_">
 		<use xlink:href="#SVGID_401_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="425" y="589.7" class="st206" width="85.6" height="17"/>
+	<rect x="425" y="589.7" class="st207" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8499,9 +8506,9 @@
 	<clipPath id="SVGID_404_">
 		<use xlink:href="#SVGID_403_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st207">
+	<g class="st208">
 		<rect x="453.4" y="594.2" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 453.4106 600.871)" class="st133 st134 st135">Waikato</text>
+		<text transform="matrix(1 0 0 1 453.4106 600.7069)" class="st133 st134 st135">Waikato</text>
 	</g>
 </g>
 <g>
@@ -8511,7 +8518,7 @@
 	<clipPath id="SVGID_406_">
 		<use xlink:href="#SVGID_405_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="516.1" y="589.7" class="st208" width="85.6" height="17"/>
+	<rect x="516.1" y="589.7" class="st209" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8520,9 +8527,9 @@
 	<clipPath id="SVGID_408_">
 		<use xlink:href="#SVGID_407_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st209">
+	<g class="st210">
 		<rect x="549" y="594" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 548.9594 600.692)" class="st133 st134 st135">Mana</text>
+		<text transform="matrix(1 0 0 1 548.9594 600.5279)" class="st133 st134 st135">Mana</text>
 	</g>
 </g>
 <g>
@@ -8532,7 +8539,7 @@
 	<clipPath id="SVGID_410_">
 		<use xlink:href="#SVGID_409_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="607.2" y="589.7" class="st210" width="85.6" height="17"/>
+	<rect x="607.2" y="589.7" class="st211" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8541,9 +8548,9 @@
 	<clipPath id="SVGID_412_">
 		<use xlink:href="#SVGID_411_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st211">
+	<g class="st212">
 		<rect x="623.6" y="594" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 623.5999 600.692)" class="st133 st134 st135">Upper Harbour</text>
+		<text transform="matrix(1 0 0 1 623.5999 600.5279)" class="st133 st134 st135">Upper Harbour</text>
 	</g>
 </g>
 <g>
@@ -8553,7 +8560,7 @@
 	<clipPath id="SVGID_414_">
 		<use xlink:href="#SVGID_413_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="698.3" y="589.7" class="st212" width="85.6" height="17"/>
+	<rect x="698.3" y="589.7" class="st213" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8562,9 +8569,9 @@
 	<clipPath id="SVGID_416_">
 		<use xlink:href="#SVGID_415_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st213">
+	<g class="st214">
 		<rect x="727.4" y="594" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 727.3804 600.692)" class="st133 st134 st135">Wigram</text>
+		<text transform="matrix(1 0 0 1 727.3804 600.5279)" class="st133 st134 st135">Wigram</text>
 	</g>
 </g>
 <g>
@@ -8574,7 +8581,7 @@
 	<clipPath id="SVGID_418_">
 		<use xlink:href="#SVGID_417_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="60.7" y="488.3" class="st214" width="85.6" height="17"/>
+	<rect x="60.7" y="488.3" class="st215" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8583,9 +8590,9 @@
 	<clipPath id="SVGID_420_">
 		<use xlink:href="#SVGID_419_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st215">
+	<g class="st216">
 		<rect x="81.7" y="492.8" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 81.6796 499.4716)" class="st133 st134 st135">Coromandel</text>
+		<text transform="matrix(1 0 0 1 81.6796 499.3075)" class="st133 st152 st135">Coromandel</text>
 	</g>
 </g>
 <g>
@@ -8595,7 +8602,7 @@
 	<clipPath id="SVGID_422_">
 		<use xlink:href="#SVGID_421_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="151.8" y="488.3" class="st216" width="85.6" height="17"/>
+	<rect x="151.8" y="488.3" class="st217" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8604,9 +8611,9 @@
 	<clipPath id="SVGID_424_">
 		<use xlink:href="#SVGID_423_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st217">
+	<g class="st218">
 		<rect x="176.8" y="492.8" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 176.7802 499.4716)" class="st133 st134 st135">New Lynn</text>
+		<text transform="matrix(1 0 0 1 176.7802 499.3075)" class="st133 st152 st135">New Lynn</text>
 	</g>
 </g>
 <g>
@@ -8616,7 +8623,7 @@
 	<clipPath id="SVGID_426_">
 		<use xlink:href="#SVGID_425_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="242.9" y="488.3" class="st218" width="85.6" height="17"/>
+	<rect x="242.9" y="488.3" class="st219" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8625,9 +8632,9 @@
 	<clipPath id="SVGID_428_">
 		<use xlink:href="#SVGID_427_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st219">
+	<g class="st220">
 		<rect x="273.9" y="492.6" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 273.8799 499.292)" class="st133 st134 st135">Napier</text>
+		<text transform="matrix(1 0 0 1 273.8799 499.1279)" class="st133 st152 st135">Napier</text>
 	</g>
 </g>
 <g>
@@ -8637,7 +8644,7 @@
 	<clipPath id="SVGID_430_">
 		<use xlink:href="#SVGID_429_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="333.9" y="488.3" class="st220" width="85.6" height="17"/>
+	<rect x="333.9" y="488.3" class="st221" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8646,9 +8653,9 @@
 	<clipPath id="SVGID_432_">
 		<use xlink:href="#SVGID_431_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st221">
+	<g class="st222">
 		<rect x="345.6" y="492.8" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 345.6391 499.4716)" class="st133 st134 st135">Palmerston North</text>
+		<text transform="matrix(1 0 0 1 345.6391 499.3075)" class="st133 st152 st135">Palmerston North</text>
 	</g>
 </g>
 <g>
@@ -8658,7 +8665,7 @@
 	<clipPath id="SVGID_434_">
 		<use xlink:href="#SVGID_433_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="425" y="488.3" class="st222" width="85.6" height="17"/>
+	<rect x="425" y="488.3" class="st223" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8667,9 +8674,9 @@
 	<clipPath id="SVGID_436_">
 		<use xlink:href="#SVGID_435_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st223">
+	<g class="st224">
 		<rect x="449.4" y="492.8" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 449.4106 499.4716)" class="st133 st134 st135">Wairarapa</text>
+		<text transform="matrix(1 0 0 1 449.4106 499.3075)" class="st133 st152 st135">Wairarapa</text>
 	</g>
 </g>
 <g>
@@ -8679,7 +8686,7 @@
 	<clipPath id="SVGID_438_">
 		<use xlink:href="#SVGID_437_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="516.1" y="488.3" class="st224" width="85.6" height="17"/>
+	<rect x="516.1" y="488.3" class="st225" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8688,9 +8695,9 @@
 	<clipPath id="SVGID_440_">
 		<use xlink:href="#SVGID_439_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st225">
+	<g class="st226">
 		<rect x="541.6" y="492.8" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 541.6293 499.4716)" class="st133 st134 st135">Mt Roskill</text>
+		<text transform="matrix(1 0 0 1 541.6293 499.3075)" class="st133 st152 st135">Mt Roskill</text>
 	</g>
 </g>
 <g>
@@ -8700,7 +8707,7 @@
 	<clipPath id="SVGID_442_">
 		<use xlink:href="#SVGID_441_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="607.2" y="488.3" class="st226" width="85.6" height="17"/>
+	<rect x="607.2" y="488.3" class="st227" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8709,9 +8716,9 @@
 	<clipPath id="SVGID_444_">
 		<use xlink:href="#SVGID_443_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st227">
+	<g class="st228">
 		<rect x="636.3" y="492.8" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 636.2807 499.4716)" class="st133 st134 st135">Tukituki</text>
+		<text transform="matrix(1 0 0 1 636.2807 499.3075)" class="st133 st152 st135">Tukituki</text>
 	</g>
 </g>
 <g>
@@ -8721,7 +8728,7 @@
 	<clipPath id="SVGID_446_">
 		<use xlink:href="#SVGID_445_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="698.3" y="488.3" class="st228" width="85.6" height="17"/>
+	<rect x="698.3" y="488.3" class="st229" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8730,9 +8737,9 @@
 	<clipPath id="SVGID_448_">
 		<use xlink:href="#SVGID_447_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st229">
+	<g class="st230">
 		<rect x="724" y="492.8" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 724.0405 499.4716)" class="st133 st134 st135">Tauranga</text>
+		<text transform="matrix(1 0 0 1 724.0405 499.3075)" class="st133 st152 st135">Tauranga</text>
 	</g>
 </g>
 <g>
@@ -8742,7 +8749,7 @@
 	<clipPath id="SVGID_450_">
 		<use xlink:href="#SVGID_449_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="60.7" y="386.9" class="st230" width="85.6" height="17"/>
+	<rect x="60.7" y="386.9" class="st231" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8751,9 +8758,9 @@
 	<clipPath id="SVGID_452_">
 		<use xlink:href="#SVGID_451_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st231">
+	<g class="st232">
 		<rect x="89.2" y="391.2" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 89.2399 397.902)" class="st133 st134 st135">Rotorua</text>
+		<text transform="matrix(1 0 0 1 89.2399 397.7379)" class="st133 st134 st135">Rotorua</text>
 	</g>
 </g>
 <g>
@@ -8763,7 +8770,7 @@
 	<clipPath id="SVGID_454_">
 		<use xlink:href="#SVGID_453_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="151.8" y="386.9" class="st232" width="85.6" height="17"/>
+	<rect x="151.8" y="386.9" class="st233" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8772,9 +8779,9 @@
 	<clipPath id="SVGID_456_">
 		<use xlink:href="#SVGID_455_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st233">
+	<g class="st234">
 		<rect x="169.9" y="391.2" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 169.8899 397.902)" class="st133 st134 st135">Maungakiekie</text>
+		<text transform="matrix(1 0 0 1 169.8899 397.7379)" class="st133 st134 st135">Maungakiekie</text>
 	</g>
 </g>
 <g>
@@ -8784,7 +8791,7 @@
 	<clipPath id="SVGID_458_">
 		<use xlink:href="#SVGID_457_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="242.9" y="386.9" class="st234" width="85.6" height="17"/>
+	<rect x="242.9" y="386.9" class="st235" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8793,9 +8800,9 @@
 	<clipPath id="SVGID_460_">
 		<use xlink:href="#SVGID_459_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st235">
+	<g class="st236">
 		<rect x="268.5" y="391.4" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 268.5405 398.0809)" class="st133 st134 st135">Papakura</text>
+		<text transform="matrix(1 0 0 1 268.5405 397.9169)" class="st133 st134 st135">Papakura</text>
 	</g>
 </g>
 <g>
@@ -8805,7 +8812,7 @@
 	<clipPath id="SVGID_462_">
 		<use xlink:href="#SVGID_461_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="333.9" y="386.9" class="st236" width="85.6" height="17"/>
+	<rect x="333.9" y="386.9" class="st237" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8814,9 +8821,9 @@
 	<clipPath id="SVGID_464_">
 		<use xlink:href="#SVGID_463_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st237">
+	<g class="st238">
 		<rect x="357.4" y="391.4" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 357.4194 398.0809)" class="st133 st134 st135">Whangarei</text>
+		<text transform="matrix(1 0 0 1 357.4194 397.9169)" class="st133 st134 st135">Whangarei</text>
 	</g>
 </g>
 <g>
@@ -8826,7 +8833,7 @@
 	<clipPath id="SVGID_466_">
 		<use xlink:href="#SVGID_465_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="425" y="386.9" class="st238" width="85.6" height="17"/>
+	<rect x="425" y="386.9" class="st239" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8835,9 +8842,9 @@
 	<clipPath id="SVGID_468_">
 		<use xlink:href="#SVGID_467_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st239">
+	<g class="st240">
 		<rect x="447.6" y="391.2" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 447.6304 397.902)" class="st133 st134 st135">Whanganui</text>
+		<text transform="matrix(1 0 0 1 447.6304 397.7379)" class="st133 st134 st135">Whanganui</text>
 	</g>
 </g>
 <g>
@@ -8847,7 +8854,7 @@
 	<clipPath id="SVGID_470_">
 		<use xlink:href="#SVGID_469_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="516.1" y="386.9" class="st240" width="85.6" height="17"/>
+	<rect x="516.1" y="386.9" class="st241" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8856,9 +8863,9 @@
 	<clipPath id="SVGID_472_">
 		<use xlink:href="#SVGID_471_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st241">
+	<g class="st242">
 		<rect x="549.6" y="391.2" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 549.6304 397.902)" class="st133 st134 st135">Otaki</text>
+		<text transform="matrix(1 0 0 1 549.6304 397.7379)" class="st133 st134 st135">Otaki</text>
 	</g>
 </g>
 <g>
@@ -8868,7 +8875,7 @@
 	<clipPath id="SVGID_474_">
 		<use xlink:href="#SVGID_473_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="607.2" y="386.9" class="st242" width="85.6" height="17"/>
+	<rect x="607.2" y="386.9" class="st243" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8877,9 +8884,9 @@
 	<clipPath id="SVGID_476_">
 		<use xlink:href="#SVGID_475_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st243">
+	<g class="st244">
 		<rect x="633.2" y="391.4" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 633.1694 398.0809)" class="st133 st134 st135">Rimutaka</text>
+		<text transform="matrix(1 0 0 1 633.1694 397.9169)" class="st133 st134 st135">Rimutaka</text>
 	</g>
 </g>
 <g>
@@ -8889,7 +8896,7 @@
 	<clipPath id="SVGID_478_">
 		<use xlink:href="#SVGID_477_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="698.3" y="386.9" class="st244" width="85.6" height="17"/>
+	<rect x="698.3" y="386.9" class="st245" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8898,9 +8905,9 @@
 	<clipPath id="SVGID_480_">
 		<use xlink:href="#SVGID_479_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st245">
+	<g class="st246">
 		<rect x="709.6" y="391.2" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 709.5904 397.902)" class="st133 st134 st135">Christchurch East</text>
+		<text transform="matrix(1 0 0 1 709.5904 397.7379)" class="st133 st134 st135">Christchurch East</text>
 	</g>
 </g>
 <g>
@@ -8910,7 +8917,7 @@
 	<clipPath id="SVGID_482_">
 		<use xlink:href="#SVGID_481_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="60.7" y="285.5" class="st246" width="85.6" height="17"/>
+	<rect x="60.7" y="285.5" class="st247" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8919,9 +8926,9 @@
 	<clipPath id="SVGID_484_">
 		<use xlink:href="#SVGID_483_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st247">
+	<g class="st248">
 		<rect x="77.9" y="289.8" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 77.8999 296.512)" class="st133 st134 st135">Manukau East</text>
+		<text transform="matrix(1 0 0 1 77.8999 296.3479)" class="st133 st134 st135">Manukau East</text>
 	</g>
 </g>
 <g>
@@ -8931,7 +8938,7 @@
 	<clipPath id="SVGID_486_">
 		<use xlink:href="#SVGID_485_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="151.8" y="285.5" class="st248" width="85.6" height="17"/>
+	<rect x="151.8" y="285.5" class="st249" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8940,9 +8947,9 @@
 	<clipPath id="SVGID_488_">
 		<use xlink:href="#SVGID_487_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st249">
+	<g class="st250">
 		<rect x="175.9" y="289.8" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 175.8899 296.512)" class="st133 st134 st135">Manurewa</text>
+		<text transform="matrix(1 0 0 1 175.8899 296.3479)" class="st133 st134 st135">Manurewa</text>
 	</g>
 </g>
 <g>
@@ -8952,7 +8959,7 @@
 	<clipPath id="SVGID_490_">
 		<use xlink:href="#SVGID_489_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="242.9" y="285.5" class="st250" width="85.6" height="17"/>
+	<rect x="242.9" y="285.5" class="st251" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8961,9 +8968,9 @@
 	<clipPath id="SVGID_492_">
 		<use xlink:href="#SVGID_491_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st251">
+	<g class="st252">
 		<rect x="269.9" y="289.8" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 269.8799 296.512)" class="st133 st134 st135">Mangere</text>
+		<text transform="matrix(1 0 0 1 269.8799 296.3479)" class="st133 st134 st135">Mangere</text>
 	</g>
 </g>
 <g>
@@ -8973,7 +8980,7 @@
 	<clipPath id="SVGID_494_">
 		<use xlink:href="#SVGID_493_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="333.9" y="285.5" class="st252" width="85.6" height="17"/>
+	<rect x="333.9" y="285.5" class="st253" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -8982,9 +8989,9 @@
 	<clipPath id="SVGID_496_">
 		<use xlink:href="#SVGID_495_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st253">
+	<g class="st254">
 		<rect x="363.4" y="289.8" class="st132" width="85" height="9.4"/>
-		<text transform="matrix(1 0 0 1 363.4199 296.512)" class="st133 st134 st135">Kelston</text>
+		<text transform="matrix(1 0 0 1 363.4199 296.3479)" class="st133 st134 st135">Kelston</text>
 	</g>
 </g>
 <g>
@@ -8994,7 +9001,7 @@
 	<clipPath id="SVGID_498_">
 		<use xlink:href="#SVGID_497_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="425" y="285.5" class="st254" width="85.6" height="17"/>
+	<rect x="425" y="285.5" class="st255" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -9003,9 +9010,9 @@
 	<clipPath id="SVGID_500_">
 		<use xlink:href="#SVGID_499_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st255">
+	<g class="st256">
 		<rect x="450.5" y="290" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 450.52 296.6913)" class="st133 st134 st135">Northland</text>
+		<text transform="matrix(1 0 0 1 450.52 296.5272)" class="st133 st134 st135">Northland</text>
 	</g>
 </g>
 <g>
@@ -9015,7 +9022,7 @@
 	<clipPath id="SVGID_502_">
 		<use xlink:href="#SVGID_501_"  style="overflow:visible;"/>
 	</clipPath>
-	<rect x="516.1" y="285.5" class="st256" width="85.6" height="17"/>
+	<rect x="516.1" y="285.5" class="st257" width="85.6" height="17"/>
 </g>
 <g>
 	<defs>
@@ -9024,11 +9031,11 @@
 	<clipPath id="SVGID_504_">
 		<use xlink:href="#SVGID_503_"  style="overflow:visible;"/>
 	</clipPath>
-	<g class="st257">
+	<g class="st258">
 		<rect x="539.4" y="290" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 539.3998 297.0404)" class="st133 st258 st135">East Coast</text>
+		<text transform="matrix(1 0 0 1 539.3998 296.5272)" class="st133 st134 st135">East Coast</text>
 	</g>
-	<g class="st257">
+	<g class="st258">
 		<text transform="matrix(1 0 0 1 -11.7037 173.8988)" class="st134 st135">Lorem ipsum</text>
 	</g>
 </g>
@@ -9050,7 +9057,7 @@
 	</clipPath>
 	<g class="st260">
 		<rect x="634.9" y="290" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 634.9399 296.6913)" class="st133 st134 st135">Te Atatu</text>
+		<text transform="matrix(1 0 0 1 634.9399 296.5272)" class="st133 st134 st135">Te Atatu</text>
 	</g>
 </g>
 <g>
@@ -9071,88 +9078,88 @@
 	</clipPath>
 	<g class="st262">
 		<rect x="715.1" y="290" class="st132" width="85" height="9.5"/>
-		<text transform="matrix(1 0 0 1 715.1498 296.6913)" class="st133 st134 st135">Hamilton West</text>
+		<text transform="matrix(1 0 0 1 715.1498 296.5272)" class="st133 st134 st135">Hamilton West</text>
 	</g>
 </g>
 <g id="Other_Text">
-	<rect x="148.3" y="43.9" class="st132" width="553.4" height="88.8"/>
-	<text transform="matrix(0.9932 0 0 1 326.5114 68.6411)" class="st258 st263">DEPRIVATION</text>
-	<text transform="matrix(0.9932 0 0 1 416.4049 93.667)" class="st258 st264">IN</text>
-	<text transform="matrix(0.9932 0 0 1 311.3502 132.6636)" class="st258 st263">NEW ZEALAND</text>
+	<rect x="144.2" y="43.9" class="st132" width="553.4" height="88.8"/>
+	<text transform="matrix(0.9932 0 0 1 322.4064 68.6411)" class="st263 st264">DEPRIVATION</text>
+	<text transform="matrix(0.9932 0 0 1 412.2999 93.667)" class="st263 st265">IN</text>
+	<text transform="matrix(0.9932 0 0 1 307.2452 132.6636)" class="st263 st264">NEW ZEALAND</text>
 </g>
-<text transform="matrix(0.9932 0 0 1 196.3483 170.0806)" class="st258 st263">GENERAL ELECTORAL DISTRICTS</text>
+<text transform="matrix(0.9932 0 0 1 191.3284 170.0806)" class="st263 st264">GENERAL ELECTORAL DISTRICTS</text>
 <g>
 	<g>
 		<g>
-			<path class="st265" d="M642.5,1127.9c0,10.8-9.2,19.6-20.4,19.6c-11.3,0-20.4-8.8-20.4-19.6c0-10.8,9.2-19.6,20.4-19.6
-				C633.4,1108.2,642.5,1117,642.5,1127.9z"/>
-			<polygon class="st0" points="622.4,1108.3 623,1124.2 631.1,1110.4 624.6,1125 638.2,1115.9 625.6,1126.3 642,1123.8 626,1128 
-				641.7,1132.6 625.6,1129.5 637.8,1140.3 624.4,1130.9 630.6,1145.6 622.9,1131.6 621.7,1147.4 621.1,1131.6 613,1145.4 
-				619.5,1130.8 606,1139.9 618.5,1129.5 602.2,1132 618.1,1127.9 602.3,1123.2 618.5,1126.2 606.4,1115.5 619.6,1124.9 
-				613.6,1110.1 621.3,1124.2 			"/>
+			<path class="st266" d="M652.5,1143.9c0,10.8-9.2,19.6-20.4,19.6c-11.3,0-20.4-8.8-20.4-19.6c0-10.8,9.2-19.6,20.4-19.6
+				C643.4,1124.2,652.5,1133,652.5,1143.9z"/>
+			<polygon class="st0" points="632.4,1124.3 633,1140.2 641.1,1126.4 634.6,1141 648.2,1131.9 635.6,1142.3 652,1139.8 636,1144 
+				651.7,1148.6 635.6,1145.5 647.8,1156.3 634.4,1146.9 640.6,1161.6 632.9,1147.6 631.7,1163.4 631.1,1147.6 623,1161.4 
+				629.5,1146.8 616,1155.9 628.5,1145.5 612.2,1148 628.1,1143.9 612.3,1139.2 628.5,1142.2 616.4,1131.5 629.6,1140.9 
+				623.6,1126.1 631.3,1140.2 			"/>
 		</g>
 		<g>
-			<path class="st265" d="M676.5,1116.3c0,4.5-3.8,8.1-8.5,8.1c-4.6,0-8.5-3.6-8.5-8.1s3.8-8.1,8.5-8.1
-				C672.6,1108.2,676.5,1111.9,676.5,1116.3z M661.3,1116.3c0,3.6,3,6.4,6.7,6.4s6.7-3,6.7-6.4c0-3.6-2.9-6.4-6.7-6.4
-				C664.3,1109.9,661.3,1112.8,661.3,1116.3z"/>
-			<path class="st265" d="M680.6,1115.8L680.6,1115.8c0.9-1.1,2.2-1.7,3.6-1.7c3,0,4.9,2.4,4.9,5.2c0,2.8-1.8,5.2-4.9,5.2
-				c-1.3,0-2.7-0.6-3.5-1.7l0,0v6.9H679v-15.3h1.7L680.6,1115.8L680.6,1115.8L680.6,1115.8z M680.5,1119.2c0,1.9,1.2,3.8,3.4,3.8
-				s3.4-1.8,3.4-3.7s-1.2-3.6-3.5-3.6C681.8,1115.6,680.5,1117.4,680.5,1119.2z"/>
-			<path class="st265" d="M692.3,1119.6c0,1.8,1.3,3.3,3.4,3.3c1.5,0,2.5-0.8,3.1-2l1.5,0.8c-1,1.8-2.7,2.7-4.7,2.7
-				c-3,0-5-2.3-5-5.1c0-2.9,1.7-5.3,4.9-5.3s5,2.6,4.8,5.5L692.3,1119.6L692.3,1119.6L692.3,1119.6z M698.5,1118.2
-				c-0.2-1.4-1.5-2.5-3-2.5s-2.9,1.2-3.1,2.5H698.5z"/>
-			<path class="st265" d="M704.4,1115.5L704.4,1115.5c0.7-1,1.7-1.5,2.9-1.5c2.8,0,3.5,1.9,3.5,4.3v5.8h-1.7v-5.5c0-1.6-0.1-3-2.2-3
-				c-2.3,0-2.6,2.1-2.6,3.8v4.6h-1.7v-9.8h1.7L704.4,1115.5L704.4,1115.5L704.4,1115.5z"/>
-			<path class="st265" d="M720.7,1108.4h3.1c2.5,0,4.5,0.3,6.4,1.9s2.7,3.7,2.7,5.9s-0.9,4.3-2.7,5.8c-1.9,1.7-3.9,2-6.5,2h-3
-				V1108.4L720.7,1108.4z M723.9,1122.5c2,0,3.6-0.3,5.1-1.7c1.3-1.3,2-2.9,2-4.6c0-1.8-0.7-3.5-2.1-4.8c-1.5-1.3-3.1-1.5-5.1-1.5
-				h-1.4v12.5L723.9,1122.5L723.9,1122.5z"/>
-			<path class="st265" d="M744.6,1124.2h-1.7v-1.4l0,0c-0.9,1.1-2.1,1.7-3.6,1.7c-3,0-4.9-2.4-4.9-5.2c0-2.8,1.8-5.2,4.9-5.2
-				c1.3,0,2.7,0.6,3.5,1.7l0,0v-1.4h1.7L744.6,1124.2L744.6,1124.2L744.6,1124.2z M736.4,1119.2c0,1.9,1.2,3.8,3.4,3.8
-				s3.4-1.8,3.4-3.7s-1.2-3.6-3.5-3.6C737.6,1115.6,736.4,1117.4,736.4,1119.2z"/>
-			<path class="st265" d="M749.8,1124.2h-1.7v-8.2H747v-1.6h1.1v-3.5h1.7v3.5h1.8v1.6h-1.8V1124.2z"/>
-			<path class="st265" d="M762.4,1124.2h-1.7v-1.4l0,0c-0.9,1.1-2.1,1.7-3.6,1.7c-3,0-4.9-2.4-4.9-5.2c0-2.8,1.8-5.2,4.9-5.2
-				c1.3,0,2.7,0.6,3.5,1.7l0,0v-1.4h1.7L762.4,1124.2L762.4,1124.2L762.4,1124.2z M754,1119.2c0,1.9,1.2,3.8,3.4,3.8
-				s3.4-1.8,3.4-3.7s-1.2-3.6-3.5-3.6C755.2,1115.6,754,1117.4,754,1119.2z"/>
+			<path class="st266" d="M686.5,1132.3c0,4.5-3.8,8.1-8.5,8.1c-4.6,0-8.5-3.6-8.5-8.1s3.8-8.1,8.5-8.1
+				C682.6,1124.2,686.5,1127.9,686.5,1132.3z M671.3,1132.3c0,3.6,3,6.4,6.7,6.4s6.7-3,6.7-6.4c0-3.6-2.9-6.4-6.7-6.4
+				C674.3,1125.9,671.3,1128.8,671.3,1132.3z"/>
+			<path class="st266" d="M690.6,1131.8L690.6,1131.8c0.9-1.1,2.2-1.7,3.6-1.7c3,0,4.9,2.4,4.9,5.2c0,2.8-1.8,5.2-4.9,5.2
+				c-1.3,0-2.7-0.6-3.5-1.7l0,0v6.9H689v-15.3h1.7L690.6,1131.8L690.6,1131.8L690.6,1131.8z M690.5,1135.2c0,1.9,1.2,3.8,3.4,3.8
+				s3.4-1.8,3.4-3.7s-1.2-3.6-3.5-3.6C691.8,1131.6,690.5,1133.4,690.5,1135.2z"/>
+			<path class="st266" d="M702.3,1135.6c0,1.8,1.3,3.3,3.4,3.3c1.5,0,2.5-0.8,3.1-2l1.5,0.8c-1,1.8-2.7,2.7-4.7,2.7
+				c-3,0-5-2.3-5-5.1c0-2.9,1.7-5.3,4.9-5.3s5,2.6,4.8,5.5L702.3,1135.6L702.3,1135.6L702.3,1135.6z M708.5,1134.2
+				c-0.2-1.4-1.5-2.5-3-2.5s-2.9,1.2-3.1,2.5H708.5z"/>
+			<path class="st266" d="M714.4,1131.5L714.4,1131.5c0.7-1,1.7-1.5,2.9-1.5c2.8,0,3.5,1.9,3.5,4.3v5.8h-1.7v-5.5c0-1.6-0.1-3-2.2-3
+				c-2.3,0-2.6,2.1-2.6,3.8v4.6h-1.7v-9.8h1.7L714.4,1131.5L714.4,1131.5L714.4,1131.5z"/>
+			<path class="st266" d="M730.7,1124.4h3.1c2.5,0,4.5,0.3,6.4,1.9s2.7,3.7,2.7,5.9s-0.9,4.3-2.7,5.8c-1.9,1.7-3.9,2-6.5,2h-3
+				V1124.4L730.7,1124.4z M733.9,1138.5c2,0,3.6-0.3,5.1-1.7c1.3-1.3,2-2.9,2-4.6c0-1.8-0.7-3.5-2.1-4.8c-1.5-1.3-3.1-1.5-5.1-1.5
+				h-1.4v12.5L733.9,1138.5L733.9,1138.5z"/>
+			<path class="st266" d="M754.6,1140.2h-1.7v-1.4l0,0c-0.9,1.1-2.1,1.7-3.6,1.7c-3,0-4.9-2.4-4.9-5.2c0-2.8,1.8-5.2,4.9-5.2
+				c1.3,0,2.7,0.6,3.5,1.7l0,0v-1.4h1.7L754.6,1140.2L754.6,1140.2L754.6,1140.2z M746.4,1135.2c0,1.9,1.2,3.8,3.4,3.8
+				s3.4-1.8,3.4-3.7s-1.2-3.6-3.5-3.6C747.6,1131.6,746.4,1133.4,746.4,1135.2z"/>
+			<path class="st266" d="M759.8,1140.2h-1.7v-8.2H757v-1.6h1.1v-3.5h1.7v3.5h1.8v1.6h-1.8V1140.2z"/>
+			<path class="st266" d="M772.4,1140.2h-1.7v-1.4l0,0c-0.9,1.1-2.1,1.7-3.6,1.7c-3,0-4.9-2.4-4.9-5.2c0-2.8,1.8-5.2,4.9-5.2
+				c1.3,0,2.7,0.6,3.5,1.7l0,0v-1.4h1.7L772.4,1140.2L772.4,1140.2L772.4,1140.2z M764,1135.2c0,1.9,1.2,3.8,3.4,3.8
+				s3.4-1.8,3.4-3.7s-1.2-3.6-3.5-3.6C765.2,1131.6,764,1133.4,764,1135.2z"/>
 		</g>
 		<g>
-			<path class="st265" d="M662.6,1131.1l5.9,13.2l6-13.2l3.2,16.6h-1.8l-2.1-10.7l0,0l-5.3,11.3l-5.3-11.3l0,0l-2.1,10.7h-1.9
-				L662.6,1131.1z"/>
-			<path class="st265" d="M689.2,1147.7h-1.7v-1.3l0,0c-0.9,1.1-2.1,1.7-3.6,1.7c-3,0-4.9-2.4-4.9-5.2s1.8-5.2,4.9-5.2
-				c1.3,0,2.7,0.6,3.5,1.7l0,0v-1.4h1.7L689.2,1147.7L689.2,1147.7L689.2,1147.7z M680.8,1142.6c0,1.9,1.2,3.8,3.4,3.8
-				s3.4-1.8,3.4-3.7s-1.2-3.6-3.5-3.6C682.2,1139.1,680.8,1140.8,680.8,1142.6z"/>
-			<path class="st265" d="M693.6,1139L693.6,1139c0.7-1,1.7-1.5,2.9-1.5c2.8,0,3.5,1.9,3.5,4.3v5.8h-1.7v-5.5c0-1.6-0.1-3-2.2-3
-				c-2.3,0-2.6,2.1-2.6,3.8v4.6h-1.7v-9.8h1.7L693.6,1139L693.6,1139L693.6,1139z"/>
-			<path class="st265" d="M710.3,1140.7L710.3,1140.7c-0.8-1-1.8-1.7-3.1-1.7c-2.1,0-3.6,1.7-3.6,3.6s1.3,3.6,3.6,3.6
-				c1.5,0,2.5-0.6,3.2-1.7l0,0v2.3c-1,0.6-2,1-3.2,1c-3.1,0-5.5-2.2-5.5-5.2c0-2.9,2.5-5.2,5.5-5.2c1.1,0,2.2,0.3,3.1,1V1140.7
-				L710.3,1140.7z"/>
-			<path class="st265" d="M714.2,1130.5v8.6l0,0c0.7-1,1.7-1.5,2.9-1.5c2.8,0,3.5,1.9,3.5,4.3v5.8h-1.7v-5.5c0-1.6-0.1-3-2.2-3
-				c-2.3,0-2.6,2.1-2.6,3.8v4.6h-1.7v-17.2L714.2,1130.5L714.2,1130.5z"/>
-			<path class="st265" d="M724.3,1143.1c0,1.8,1.3,3.3,3.4,3.3c1.5,0,2.5-0.8,3.1-2l1.5,0.8c-1,1.8-2.7,2.7-4.7,2.7
-				c-3,0-5-2.3-5-5.1c0-2.9,1.7-5.3,4.9-5.3s5,2.6,4.8,5.5L724.3,1143.1L724.3,1143.1L724.3,1143.1z M730.4,1141.7
-				c-0.2-1.4-1.5-2.5-3-2.5s-2.9,1.2-3.1,2.5H730.4z"/>
-			<path class="st265" d="M738.3,1140.1c-0.2-0.5-0.7-1-1.3-1s-1.2,0.4-1.2,1.1c0,0.8,1.2,1.3,2.3,1.8c1.2,0.4,2.3,1.2,2.3,2.8
+			<path class="st266" d="M672.6,1147.1l5.9,13.2l6-13.2l3.2,16.6h-1.8l-2.1-10.7l0,0l-5.3,11.3l-5.3-11.3l0,0l-2.1,10.7h-1.9
+				L672.6,1147.1z"/>
+			<path class="st266" d="M699.2,1163.7h-1.7v-1.3l0,0c-0.9,1.1-2.1,1.7-3.6,1.7c-3,0-4.9-2.4-4.9-5.2s1.8-5.2,4.9-5.2
+				c1.3,0,2.7,0.6,3.5,1.7l0,0v-1.4h1.7L699.2,1163.7L699.2,1163.7L699.2,1163.7z M690.8,1158.6c0,1.9,1.2,3.8,3.4,3.8
+				s3.4-1.8,3.4-3.7s-1.2-3.6-3.5-3.6C692.2,1155.1,690.8,1156.8,690.8,1158.6z"/>
+			<path class="st266" d="M703.6,1155L703.6,1155c0.7-1,1.7-1.5,2.9-1.5c2.8,0,3.5,1.9,3.5,4.3v5.8h-1.7v-5.5c0-1.6-0.1-3-2.2-3
+				c-2.3,0-2.6,2.1-2.6,3.8v4.6h-1.7v-9.8h1.7L703.6,1155L703.6,1155L703.6,1155z"/>
+			<path class="st266" d="M720.3,1156.7L720.3,1156.7c-0.8-1-1.8-1.7-3.1-1.7c-2.1,0-3.6,1.7-3.6,3.6s1.3,3.6,3.6,3.6
+				c1.5,0,2.5-0.6,3.2-1.7l0,0v2.3c-1,0.6-2,1-3.2,1c-3.1,0-5.5-2.2-5.5-5.2c0-2.9,2.5-5.2,5.5-5.2c1.1,0,2.2,0.3,3.1,1V1156.7
+				L720.3,1156.7z"/>
+			<path class="st266" d="M724.2,1146.5v8.6l0,0c0.7-1,1.7-1.5,2.9-1.5c2.8,0,3.5,1.9,3.5,4.3v5.8h-1.7v-5.5c0-1.6-0.1-3-2.2-3
+				c-2.3,0-2.6,2.1-2.6,3.8v4.6h-1.7v-17.2L724.2,1146.5L724.2,1146.5z"/>
+			<path class="st266" d="M734.3,1159.1c0,1.8,1.3,3.3,3.4,3.3c1.5,0,2.5-0.8,3.1-2l1.5,0.8c-1,1.8-2.7,2.7-4.7,2.7
+				c-3,0-5-2.3-5-5.1c0-2.9,1.7-5.3,4.9-5.3s5,2.6,4.8,5.5L734.3,1159.1L734.3,1159.1L734.3,1159.1z M740.4,1157.7
+				c-0.2-1.4-1.5-2.5-3-2.5s-2.9,1.2-3.1,2.5H740.4z"/>
+			<path class="st266" d="M748.3,1156.1c-0.2-0.5-0.7-1-1.3-1s-1.2,0.4-1.2,1.1c0,0.8,1.2,1.3,2.3,1.8c1.2,0.4,2.3,1.2,2.3,2.8
 				c0,1.8-1.6,3.2-3.5,3.2c-1.7,0-3.1-1-3.6-2.4l1.6-0.6c0.4,0.8,0.9,1.6,2.1,1.6c0.9,0,1.7-0.6,1.7-1.5c0-2.2-4.6-1.4-4.6-4.5
-				c0-1.7,1.3-2.8,3-2.8c1.2,0,2.2,0.8,2.7,1.8L738.3,1140.1z"/>
-			<path class="st265" d="M744.1,1147.7h-1.8v-8.2h-1.1v-1.6h1.1v-3.5h1.7v3.5h1.8v1.6H744L744.1,1147.7L744.1,1147.7z"/>
-			<path class="st265" d="M747.6,1143.1c0,1.8,1.3,3.3,3.4,3.3c1.5,0,2.5-0.8,3.1-2l1.5,0.8c-1,1.8-2.7,2.7-4.7,2.7
-				c-3,0-5-2.3-5-5.1c0-2.9,1.7-5.3,4.9-5.3s5,2.6,4.8,5.5L747.6,1143.1L747.6,1143.1L747.6,1143.1z M753.8,1141.7
-				c-0.2-1.4-1.5-2.5-3-2.5s-2.9,1.2-3.1,2.5H753.8z"/>
-			<path class="st265" d="M759.2,1138.9L759.2,1138.9c0.7-0.8,1.2-1.3,2.2-1.3c0.6,0,1.1,0.2,1.6,0.4l-0.8,1.5
-				c-0.3-0.3-0.6-0.4-1-0.4c-1.9,0-2,2.3-2,3.6v4.9h-1.7v-9.8h1.7V1138.9z"/>
+				c0-1.7,1.3-2.8,3-2.8c1.2,0,2.2,0.8,2.7,1.8L748.3,1156.1z"/>
+			<path class="st266" d="M754.1,1163.7h-1.8v-8.2h-1.1v-1.6h1.1v-3.5h1.7v3.5h1.8v1.6H754L754.1,1163.7L754.1,1163.7z"/>
+			<path class="st266" d="M757.6,1159.1c0,1.8,1.3,3.3,3.4,3.3c1.5,0,2.5-0.8,3.1-2l1.5,0.8c-1,1.8-2.7,2.7-4.7,2.7
+				c-3,0-5-2.3-5-5.1c0-2.9,1.7-5.3,4.9-5.3s5,2.6,4.8,5.5L757.6,1159.1L757.6,1159.1L757.6,1159.1z M763.8,1157.7
+				c-0.2-1.4-1.5-2.5-3-2.5s-2.9,1.2-3.1,2.5H763.8z"/>
+			<path class="st266" d="M769.2,1154.9L769.2,1154.9c0.7-0.8,1.2-1.3,2.2-1.3c0.6,0,1.1,0.2,1.6,0.4l-0.8,1.5
+				c-0.3-0.3-0.6-0.4-1-0.4c-1.9,0-2,2.3-2,3.6v4.9h-1.7v-9.8h1.7V1154.9z"/>
 		</g>
-		<line class="st266" x1="650.5" y1="1108.1" x2="650.5" y2="1147.6"/>
+		<line class="st267" x1="660.5" y1="1124.1" x2="660.5" y2="1163.6"/>
 	</g>
 </g>
-<text transform="matrix(1.0396 0 0 1 71.3483 1044.1226)" class="st267 st268">Image showing deprivation profiles of General Electoral Districts in New Zealand. To create the shapes, data zones in New Zealand </text>
-<text transform="matrix(1.0396 0 0 1 71.3483 1053.5503)" class="st267 st268">were ranked using the New Zealand Index of Multiple Deprivation measure, and were divided into twenty buckets </text>
-<text transform="matrix(1.0396 0 0 1 71.3483 1062.978)" class="st267 st268">(vigintiles). The distribution of data zones in each general electoral district was plotted, with more deprived data zones at the </text>
-<text transform="matrix(1.0396 0 0 1 71.3483 1072.4038)" class="st267 st268">bottom of the plots, and less deprived data zones at the top. To interpret the shapes - a larger bottom indicates </text>
-<text transform="matrix(1.0396 0 0 1 71.3483 1081.8315)" class="st267 st268">more deprived data zones in the area, while a larger top indicates fewer deprived data zones.</text>
-<text transform="matrix(1.0396 0 0 1 71.3483 1124.6851)" class="st267 st268">Data: New Zealand Index of Multiple Deprivation | https://www.fmhs.auckland.ac.nz/en/soph/about/</text>
-<text transform="matrix(1.0396 0 0 1 71.3483 1134.1128)" class="st267 st268">our-departments/epidemiology-and-biostatistics/research/hgd/research-themes/imd.html</text>
-<text transform="matrix(1.0396 0 0 1 71.3483 1152.9663)" class="st267 st268">Visualisation created in R Studio and Adobe Illustrator by Jamie Whyte and Julian Tait of Open Data Manchester</text>
-<text transform="matrix(1.0396 0 0 1 71.3483 1171.8198)" class="st267 st268">@northernjamie | @julianlstar | @opendatamcr</text>
-<text transform="matrix(1.0396 0 0 1 71.3485 1102.0847)" class="st267 st268">GEDs are sorted according to the average rank of data zones in each district.</text>
+<text transform="matrix(1.0396 0 0 1 71.3483 1044.1226)" class="st134 st268">Image showing deprivation profiles of General Electoral Districts in New Zealand. To create the shapes, data zones in New Zealand </text>
+<text transform="matrix(1.0396 0 0 1 71.3483 1053.5503)" class="st134 st268">were ranked using the New Zealand Index of Multiple Deprivation measure, and were divided into twenty buckets </text>
+<text transform="matrix(1.0396 0 0 1 71.3483 1062.978)" class="st134 st268">(vigintiles). The distribution of data zones in each general electoral district was plotted, with more deprived data zones at the </text>
+<text transform="matrix(1.0396 0 0 1 71.3483 1072.4038)" class="st134 st268">bottom of the plots, and less deprived data zones at the top. To interpret the shapes - a larger bottom indicates </text>
+<text transform="matrix(1.0396 0 0 1 71.3483 1081.8315)" class="st134 st268">more deprived data zones in the area, while a larger top indicates fewer deprived data zones.</text>
+<text transform="matrix(1.0396 0 0 1 71.3483 1124.6851)" class="st134 st268">Data: New Zealand Index of Multiple Deprivation | https://www.fmhs.auckland.ac.nz/en/soph/about/</text>
+<text transform="matrix(1.0396 0 0 1 71.3483 1134.1128)" class="st134 st268">our-departments/epidemiology-and-biostatistics/research/hgd/research-themes/imd.html</text>
+<text transform="matrix(1.0396 0 0 1 71.3483 1152.9663)" class="st134 st268">Visualisation created in R Studio and Adobe Illustrator by Jamie Whyte and Julian Tait of Open Data Manchester</text>
+<text transform="matrix(1.0396 0 0 1 71.3483 1171.8198)" class="st134 st268">@northernjamie | @julianlstar | @opendatamcr</text>
+<text transform="matrix(1.0396 0 0 1 71.3485 1102.0847)" class="st134 st268">GEDs are sorted according to the average rank of data zones in each district.</text>
 <line class="st132" x1="141" y1="282" x2="41" y2="282"/>
 <line class="st132" x1="141" y1="282" x2="48.1" y2="282"/>
 <g>
@@ -9267,5 +9274,47 @@
 		<line class="st269" x1="783.4" y1="922.4" x2="784.9" y2="922.4"/>
 	</g>
 </g>
-<rect x="618.2" y="1038.8" class="st271" width="142.6" height="47.6"/>
+<rect x="645.9" y="1036.8" class="st271" width="128.3" height="70.9"/>
+<rect x="667.2" y="1048" class="st272" width="11.3" height="11.3"/>
+<rect x="667.2" y="1066.3" class="st273" width="11.3" height="11.3"/>
+<rect x="667.2" y="1084.6" class="st274" width="11.3" height="11.3"/>
+<g>
+	<defs>
+		<rect id="SVGID_513_" x="685.4" y="1080.8" width="85.6" height="17"/>
+	</defs>
+	<clipPath id="SVGID_514_">
+		<use xlink:href="#SVGID_513_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st275">
+		<text transform="matrix(1 0 0 1 692.6241 1094.243)" class="st133 st134 st276">ACT</text>
+	</g>
+	<g class="st275">
+	</g>
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_515_" x="685.4" y="1062.1" width="85.6" height="17"/>
+	</defs>
+	<clipPath id="SVGID_516_">
+		<use xlink:href="#SVGID_515_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st277">
+		<text transform="matrix(1 0 0 1 692.6241 1075.5697)" class="st133 st134 st276">Labour</text>
+	</g>
+	<g class="st277">
+	</g>
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_517_" x="685.3" y="1044.2" width="85.6" height="17"/>
+	</defs>
+	<clipPath id="SVGID_518_">
+		<use xlink:href="#SVGID_517_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st278">
+		<text transform="matrix(1 0 0 1 692.4342 1057.5957)" class="st133 st134 st276">National</text>
+	</g>
+	<g class="st278">
+	</g>
+</g>
 </svg>
