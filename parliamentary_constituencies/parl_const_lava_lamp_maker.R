@@ -1,7 +1,7 @@
 ## IMD Violin plots by parliamentary constituency
 
 library(tidyverse)
-## England
+
 
 ### Get the geo lookups
 
@@ -37,13 +37,6 @@ iod_data_lsoa_pcon <- imd_data_lsoa_19 %>%
   left_join(lu_ward_pcon, by = c('WD18CD' = 'WD18CD')) %>%
   left_join(pcon_19_elec, by = c('PCON18CD' = 'ccode')) %>%
   mutate(vigintile = ntile(Value, 20)) %>%
-  select('RGN19NM','PCON18CD') %>% 
-  group_by(RGN19NM) %>% 
-  summarise(n_distinct(PCON18CD))
-  #group_by(RGN19NM) %>% 
-  count(PCON18CD)
-  
-  #filter(RGN19NM == "North West") %>%
   select('FeatureCode','RGN19NM','PCON18NM','vigintile', 'first19','PCON18CD','Value') 
   
   
@@ -77,7 +70,7 @@ iod_pcon_sort <- iod_data_lsoa_pcon %>%
 
 eng_imd_pcon_pol_lava
 
-ggsave(paste0("parliamentary_constituencies/outputs/nw2019IMDsort.svg"),eng_imd_pcon_pol_lava,width=26,height=30,units="cm")
+ggsave(paste0("parliamentary_constituencies/outputs/nw2019IMDsort.svg"),eng_imd_pcon_pol_lava,width=26,height=60,units="cm")
 
 
 
